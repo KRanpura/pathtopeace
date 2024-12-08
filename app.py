@@ -11,7 +11,7 @@ ptsd_model = PTSDModel()
 
 app.secret_key= urandom(24)
 
-DATABASE = 'findnorth.db'
+DATABASE = 'pathtopeace.db'
 app.config['DATABASE'] = DATABASE
 
 def init_db():
