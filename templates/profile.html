@@ -6,6 +6,8 @@
         <title>Path to Peace</title>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
     </head>
     <body>
         <!-- Navbar -->
@@ -16,7 +18,8 @@
             </h1>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href= "/forum">Forum</a></li>
+                <li><a href="/info">Info</a></li>
+                <li><a href="/forum">Forum</a></li>
                 <li><a href="/questionnaire">QuickDiagnose</a></li>
                 <li><a href="/logout">Logout</a></li>
             </ul>
@@ -24,58 +27,86 @@
         
         <!-- Main Content -->
         <main>
-            <h2>Hi {{ session["name"] }}, welcome to your profile:</h2>
-        
-            <div class="graphs">
-                <h3>National Institude of Mental Health PTSD Graph</h3>
-                <a href="https://www.nimh.nih.gov/health/statistics/post-traumatic-stress-disorder-ptsd#part_2612" target="_blank">
-                    <img src="{{ url_for('static', filename='data/nihgraph.png') }}" alt="Graph 1" class="graphs-img">
-                </a>                <div class="graph-subtext">This graph shows the analysis of PTSD data among adults. (n=9282)</div>
-        
-                <h3>National Institude of Mental Health PTSD Pie Chart</h3>
-                <a href="https://www.nimh.nih.gov/health/statistics/post-traumatic-stress-disorder-ptsd#part_2612" target="_blank">
-                    <img src="{{ url_for('static', filename='data/nihpiechart.jpg') }}" alt="Graph 2" class="graphs-img">
-                </a>                <div class="graph-subtext">This pie chart display the distribution of PTSD cases via severity level. (n=9282)</div>
-        
-                <h3>Predicted PTSD vs Actual Linear Regression</h3>
-                <img src="{{ url_for('static', filename='data/predictive-plot.png') }}" alt="Graph 3" class="graphs-img">
-                <div class="graph-subtext">This plot compares predicted PTSD outcomes with actual results. (n=9282)*3</div>
-                <div>                  .                    </div>
-                <div>                  .                   </div>
-                <div>                  .                   </div>
-                <div>                  .                   </div>
-                <div>                  .                   </div>
-                <div>                  .                   </div>
-                <div>                  .                   </div>
-
-
-            </div>
-
+            <h2>Hi {{ session["name"] }}, welcome to your profile!</h2>
             
-            <div class="additional-links">
-                <div class="link-item">
-                    <img src="static\links\nih.jpg" alt="image1">
-                    <h4><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4158713/">NIH PTSD MISDIAGNOSIS STUDY</a></h4>
-                    <h4><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6457163/">NIH PTSD UNDETECTED STUDY</a></h4>
-                    <p>Often, PTSD gets misdiagnosed as depression, anxiety, obsessiveness, and other mental health conditions causing mistreatment.</p>
-                    <p>Most times, PTSD can go undetected due to factors of misconception, negligence, and an overwhelmingly unfair stigma</p>
-                </div>
-        
-                <div class="link-item">  
-                    <img src="static\links\harvard.jpg" alt="image2">
-                    <h4><a href="https://www.hcp.med.harvard.edu/ncs/ftpdir/table_ncsr_12monthprevgenderxage.pdf">NCSR HARVARD SURVEY DATA</a></h4>
-                    <p>Path to Peace used interpreted data from a mental health survey that ioncluded PTSD to find the total percentile of adults with PTSD categorized via Sex and Age</p>
-                    <p>After transferring the data into a database, we use Linear Regression Machine Learning Model in order to predict accuracy of users with PTSD</p>
-                </div>
-                <div class="link-item">
-                    <img src="static\links\us.jpg" alt="image3">
-                    <h4><a href="https://www.ptsd.va.gov/professional/assessment/adult-sr/ptsd-checklist.asp">PCL-5 DOCUMENTATION</a></h4>
-                    <p>Path to Peace follows the PCL-5 scoring system used by the United State's government and liscenced practioners to diagnose individuals with PTSD</p>
-                    <p>This 20 quesiton survey is judged off 31-33 point cut off in order to categorize individuals with PTSD</p>
-                </div>
+            <!-- PCL-5 Score History -->
+            <h3>Your PCL-5 score history:</h3>
+            {% if pcl5_scores %}
+            <div class="chart-container">
+                <canvas id="pcl5Chart"></canvas>
             </div>
+            <script>
+                try {
+                    // Parse the JSON data
+                    const pcl5Data = JSON.parse('{{ pcl5_scores|tojson|safe }}');
+                    console.log("Parsed pcl5Data:", pcl5Data);
+            
+                    // Prepare data for Chart.js
+                    const chartData = pcl5Data.map(score => ({
+                        x: new Date(score.timestamp),
+                        y: score.pcl5result
+                    }));
+                    console.log("Chart Data:", chartData);
+            
+                    // Create the Chart.js chart
+                    const ctx = document.getElementById('pcl5Chart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'scatter',
+                        data: {
+                            datasets: [{
+                                label: 'PCL-5 Scores',
+                                data: chartData,
+                                backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                            }]
+                        },
+                        options: {
+                            maintainAspectRatio: false, // Allows resizing
+                            scales: {
+                                x: {
+                                    type: 'time',
+                                    time: {
+                                        unit: 'day'
+                                    },
+                                    title: {
+                                        display: true,
+                                        text: 'Date'
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'PCL-5 Score'
+                                    },
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                    console.log("Chart created successfully!");
+                } catch (error) {
+                    console.error("Error rendering PCL-5 Chart:", error);
+                    document.body.insertAdjacentHTML('beforeend', '<p>Error: Unable to render chart. Check console for details.</p>');
+                }
+            </script>
+            {% else %}
+            <p>No PCL-5 scores associated with your profile.</p>
+            {% endif %}
+            
+            <!-- Forum Posts -->
+            <h3>Your forum posts:</h3>
+            {% if forum_posts %}
+            <ul>
+                {% for post in forum_posts %}
+                <li>
+                    <strong>{{ post.title }}</strong><br>
+                    {{ post.content }}<br>
+                    <em>Posted on {{ post.timestamp }}</em>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>No posts yet.</p>
+            {% endif %}
         </main>
-
-        
     </body>
 </html>

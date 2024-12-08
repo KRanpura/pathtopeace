@@ -56,6 +56,19 @@ h1,h2 {
     color: #FFEB3B; /* Hover effect: white-yellow */
 }
 
+/* Center the chart container */
+.chart-container {
+    max-width: 600px; /* Limit the width to 600px */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Ensure the canvas fits inside the container */
+.chart-container canvas {
+    width: 100%; /* Adjust to container's width */
+    height: 400px; /* Set a specific height */
+}
+
 /* Main content styling */
 main {
     padding: 20px;

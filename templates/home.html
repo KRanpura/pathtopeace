@@ -12,12 +12,13 @@
         <nav class="navbar">
             <h1>
                 Path to Peace
-                <img src="{{ url_for('static', filename='images/nstar.png') }}" alt="FindNorth Logo" class="logo">
+                <img src="{{ url_for('static', filename='images/nstar.png') }}" alt="PathtoPeace Logo" class="logo">
             </h1>
             <ul>
                 {% if session.get('user_id') %}
                     <!-- User is logged in -->
                     <li><a href="/profile">Profile</a></li>
+                    <li><a href="/info">Info</a></li>
                     <li><a href="/questionnaire">QuickDiagnose</a></li>
                     <li><a href="/forum">Forum</a></li>
                     <li><a href="/logout">Logout</a></li>

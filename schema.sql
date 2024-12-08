@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS users (
 CREATE TABLE IF NOT EXISTS quest_responses (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER NOT NULL,
-    submitted TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    submitted TIMESTAMP DEFAULT CURRENT_TIMESTAMP,   
     pcl5result INTEGER NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS forum_posts (
     user_id INTEGER NOT NULL, 
     title VARCHAR(500),
     content VARCHAR(1000),
-    FOREIGN KEY (user_id) REFERENCES users(id)
+    FOREIGN KEY (user_id) REFERENCES users(id)       
 );
 
 CREATE TABLE IF NOT EXISTS forum_replies (
@@ -33,3 +33,4 @@ CREATE TABLE IF NOT EXISTS forum_replies (
     FOREIGN KEY (user_id) REFERENCES users(id)
     FOREIGN KEY (og_post_id) REFERENCES forum_posts(id)
 );
+

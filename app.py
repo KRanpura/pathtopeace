@@ -210,10 +210,31 @@ def severity(pcl_score):
         return "Invalid"
 
 
-@app.route("/profile")
+@app.route('/profile')
 def profile():
-    return render_template("profile.html")
+    if not session.get('user_id'):
+        return redirect('/login')
+    
+    user_id = session['user_id']
+    conn = sqlite3.connect('pathtopeace.db')
+    cursor = conn.cursor()
 
+    # Fetch PCL-5 scores
+    cursor.execute("SELECT submitted, pcl5result FROM quest_responses WHERE user_id = ?", (user_id,))
+    pcl5_scores = [{'timestamp': row[0], 'pcl5result': row[1]} for row in cursor.fetchall()]
+    #print("PCL-5 Scores:", pcl5_scores)
+
+    # Fetch forum posts
+    cursor.execute("SELECT title, content FROM forum_posts WHERE user_id = ?", (user_id,))
+    forum_posts = [{'title': row[0], 'content': row[1]} for row in cursor.fetchall()]
+    
+    conn.close()
+
+    return render_template('profile.html', pcl5_scores=pcl5_scores, forum_posts=forum_posts)
+
+@app.route("/info")
+def info():
+    return render_template("info.html")
 
 @app.route("/make_post")
 def makepost():
