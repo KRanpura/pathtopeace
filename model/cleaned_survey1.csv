@@ -1,4 +1,4 @@
-ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
+ID,Age,Sex,PCL-Score,Disorder,PTSD_Percentile
 1,34,M,6,Obsessive-Compulsive Disorder,0.2388
 2,38,F,37,PTSD,0.6031
 3,31,F,33,PTSD,0.5039
@@ -16,14 +16,11 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 15,65,F,35,PTSD,0.5245
 16,18,M,27,Social Phobia,0.3709
 17,57,F,26,Adult Separation Disorder,0.2359
-18,0,F,65,Specific Phobia,
 19,18,M,7,Specific Phobia,0.445
 20,34,M,13,Obsessive-Compulsive Disorder,0.1002
 21,42,F,56,PTSD,0.7444
 22,30,F,58,PTSD,0.8074
 23,41,F,11,Social Phobia,0.1173
-24,40,M,75,Obsessive-Compulsive Disorder,
-25,67,F,19,Social Phobia,
 26,49,F,48,PTSD,0.6947
 27,26,M,58,PTSD,0.8019
 28,39,F,15,Panic Disorder,0.0127
@@ -48,15 +45,12 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 47,18,M,45,PTSD,0.5155
 48,29,F,56,PTSD,0.7846
 49,18,F,11,Social Phobia,0.2637
-50,33,M,3,,
 51,22,F,46,PTSD,0.6054
 52,35,F,62,PTSD,0.7126
 53,21,F,64,PTSD,0.8474
 54,35,F,42,PTSD,0.6562
-55,18,M,0,,
 56,42,M,15,Adult Separation Disorder,0.0496
 57,32,F,41,PTSD,0.6625
-58,30,,1,Social Phobia,
 59,31,M,72,PTSD,0.8478
 60,21,M,20,Obsessive-Compulsive Disorder,0.2242
 61,54,F,38,PTSD,0.6228
@@ -64,7 +58,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 63,42,F,68,PTSD,0.9033
 64,46,F,76,PTSD,0.9065
 65,34,M,4,Generalized Anxiety Disorder,0.0891
-66,71,M,0,Panic Disorder,
 67,24,M,13,Obsessive-Compulsive Disorder,0.0045
 68,31,M,25,Panic Disorder,0.1986
 69,86,F,1,Generalized Anxiety Disorder,0.4808
@@ -120,7 +113,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 119,42,M,9,Generalized Anxiety Disorder,0.2803
 120,42,M,23,Adult Separation Disorder,0.2129
 121,32,F,57,PTSD,0.8172
-122,34,,3,Specific Phobia,
 123,30,F,58,PTSD,0.7825
 124,66,F,62,PTSD,0.6994
 125,54,M,45,PTSD,0.5081
@@ -156,7 +148,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 155,20,M,13,Specific Phobia,0.0555
 156,39,M,74,PTSD,0.9615
 157,18,F,74,PTSD,0.8623
-158,82,,48,PTSD,
 159,42,F,61,PTSD,0.7414
 160,41,F,24,Social Phobia,0.1681
 161,31,F,5,Adult Separation Disorder,0.3492
@@ -170,7 +161,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 169,46,M,17,Generalized Anxiety Disorder,0.1102
 170,29,M,24,Generalized Anxiety Disorder,0.2655
 171,19,F,60,PTSD,0.8193
-172,84,,0,Generalized Anxiety Disorder,
 173,55,M,62,PTSD,0.7401
 174,55,M,34,PTSD,0.5566
 175,84,F,49,PTSD,0.6969
@@ -185,7 +175,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 184,35,M,57,PTSD,0.7372
 185,53,F,79,PTSD,0.9425
 186,67,F,58,PTSD,0.7003
-187,0,,0,PTSD,
 188,40,M,12,Specific Phobia,0.4638
 189,46,F,33,PTSD,0.5077
 190,54,M,18,Adult Separation Disorder,0.0839
@@ -235,7 +224,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 234,46,F,64,PTSD,0.9702
 235,32,M,37,PTSD,0.6264
 236,56,F,25,Generalized Anxiety Disorder,0.4777
-237,69,,21,,
 238,40,M,16,Adult Separation Disorder,0.3987
 239,22,F,62,PTSD,0.8029
 240,29,M,16,Adult Separation Disorder,0.2576
@@ -254,13 +242,11 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 253,49,F,54,PTSD,0.7682
 254,30,F,68,PTSD,0.9479
 255,89,F,19,Panic Disorder,0.4313
-256,0,M,76,PTSD,
 257,56,F,1,Generalized Anxiety Disorder,0.4969
 258,56,M,1,Adult Separation Disorder,0.1684
 259,34,F,76,PTSD,0.932
 260,47,F,52,PTSD,0.8111
 261,39,M,0,Adult Separation Disorder,0.305
-262,0,,44,Panic Disorder,
 263,39,M,11,Obsessive-Compulsive Disorder,0.4479
 264,52,M,19,Social Phobia,0.4972
 265,18,M,49,PTSD,0.7254
@@ -289,7 +275,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 288,38,M,69,PTSD,0.9264
 289,44,M,23,Obsessive-Compulsive Disorder,0.3238
 290,23,F,57,PTSD,0.8163
-291,0,F,0,,
 292,41,F,11,Panic Disorder,0.36
 293,36,M,12,Generalized Anxiety Disorder,0.0355
 294,33,M,53,PTSD,0.7857
@@ -299,9 +284,7 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 298,56,F,48,PTSD,0.807
 299,57,F,34,PTSD,0.5894
 300,33,M,24,Panic Disorder,0.433
-301,80,F,0,Social Phobia,
 302,26,M,20,Generalized Anxiety Disorder,0.4736
-303,86,M,52,Adult Separation Disorder,
 304,34,M,24,Generalized Anxiety Disorder,0.076
 305,27,M,28,Obsessive-Compulsive Disorder,0.4524
 306,32,M,51,PTSD,0.7708
@@ -311,7 +294,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 310,58,M,75,PTSD,0.9879
 311,59,F,45,PTSD,0.515
 312,47,M,42,PTSD,0.5858
-313,0,,79,Obsessive-Compulsive Disorder,
 314,44,M,28,Panic Disorder,0.3919
 315,37,F,69,PTSD,0.9191
 316,24,M,30,Panic Disorder,0.4934
@@ -324,12 +306,10 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 323,20,M,18,Generalized Anxiety Disorder,0.0851
 324,34,F,68,PTSD,0.9206
 325,41,F,42,PTSD,0.5363
-326,0,,0,PTSD,
 327,42,M,23,Panic Disorder,0.4089
 328,20,M,20,Specific Phobia,0.3383
 329,53,F,32,PTSD,0.5043
 330,66,M,80,PTSD,0.9863
-331,0,M,26,Generalized Anxiety Disorder,
 332,26,M,63,PTSD,0.8213
 333,26,F,49,PTSD,0.7917
 334,34,M,17,Adult Separation Disorder,0.4998
@@ -370,14 +350,11 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 369,30,F,5,Panic Disorder,0.3489
 370,30,F,25,Panic Disorder,0.3957
 371,24,M,25,Panic Disorder,0.2742
-372,0,,0,,
 373,58,F,35,PTSD,0.6622
 374,21,M,37,PTSD,0.5936
-375,0,M,64,Social Phobia,
 376,45,M,4,Adult Separation Disorder,0.0957
 377,49,M,12,Panic Disorder,0.2262
 378,50,M,31,Specific Phobia,0.0898
-379,65,F,0,Generalized Anxiety Disorder,
 380,36,M,80,PTSD,0.9554
 381,19,M,0,Obsessive-Compulsive Disorder,0.1956
 382,53,M,15,Social Phobia,0.1896
@@ -419,7 +396,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 418,21,M,29,Panic Disorder,0.1956
 419,36,M,37,PTSD,0.5368
 420,33,F,32,PTSD,0.5401
-421,29,F,15,Obsessive-Compulsive Disorder,
 422,49,M,58,PTSD,0.8274
 423,28,F,59,PTSD,0.6958
 424,38,F,57,PTSD,0.8315
@@ -436,9 +412,7 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 435,47,F,61,PTSD,0.7183
 436,28,M,69,PTSD,0.886
 437,23,F,4,Social Phobia,0.2795
-438,0,F,35,Adult Separation Disorder,
 439,37,F,68,PTSD,0.9932
-440,65,,0,Panic Disorder,
 441,49,M,36,PTSD,0.596
 442,37,M,24,Generalized Anxiety Disorder,0.0302
 443,45,M,17,Specific Phobia,0.1005
@@ -501,7 +475,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 500,36,M,55,PTSD,0.8327
 501,56,M,69,PTSD,0.8727
 502,55,F,73,PTSD,0.9074
-503,56,F,24,PTSD,
 504,53,F,53,PTSD,0.768
 505,18,M,72,PTSD,0.9752
 506,45,M,65,PTSD,0.8705
@@ -543,7 +516,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 542,56,F,65,PTSD,0.9327
 543,39,M,32,PTSD,0.6317
 544,40,F,63,PTSD,0.7209
-545,37,,53,,
 546,35,M,3,Social Phobia,0.4142
 547,27,M,22,Social Phobia,0.2115
 548,40,M,2,Obsessive-Compulsive Disorder,0.4129
@@ -556,7 +528,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 555,36,F,71,PTSD,0.9903
 556,34,M,31,Adult Separation Disorder,0.3285
 557,48,F,26,Adult Separation Disorder,0.2788
-558,0,F,0,Specific Phobia,
 559,21,M,79,PTSD,0.8679
 560,50,F,61,PTSD,0.734
 561,56,F,52,PTSD,0.7699
@@ -598,7 +569,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 597,48,F,15,Generalized Anxiety Disorder,0.3263
 598,24,F,28,Panic Disorder,0.2389
 599,51,F,53,PTSD,0.7218
-600,0,F,0,Obsessive-Compulsive Disorder,
 601,66,M,30,Specific Phobia,0.4904
 602,36,M,7,Generalized Anxiety Disorder,0.2038
 603,33,M,34,PTSD,0.5878
@@ -648,7 +618,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 647,42,F,59,PTSD,0.7505
 648,58,M,78,PTSD,0.9687
 649,25,M,20,Adult Separation Disorder,0.3875
-650,58,F,3,Social Phobia,
 651,27,M,52,PTSD,0.7033
 652,46,M,27,Obsessive-Compulsive Disorder,0.1902
 653,18,F,78,PTSD,0.9845
@@ -674,12 +643,10 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 673,23,M,2,Social Phobia,0.2257
 674,78,F,64,PTSD,0.9863
 675,23,F,47,PTSD,0.5626
-676,19,F,51,PTSD,
 677,53,M,55,PTSD,0.8073
 678,28,F,66,PTSD,0.9931
 679,24,M,7,Specific Phobia,0.101
 680,47,F,41,PTSD,0.639
-681,34,M,19,,
 682,81,M,51,PTSD,0.8113
 683,43,M,6,Adult Separation Disorder,0.275
 684,44,M,2,Adult Separation Disorder,0.4435
@@ -688,14 +655,12 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 687,56,F,48,PTSD,0.7742
 688,57,F,64,PTSD,0.875
 689,27,F,10,Obsessive-Compulsive Disorder,0.0094
-690,79,,44,Obsessive-Compulsive Disorder,
 691,18,F,31,Specific Phobia,0.0179
 692,20,F,26,Generalized Anxiety Disorder,0.4361
 693,21,F,33,PTSD,0.5192
 694,38,F,22,Generalized Anxiety Disorder,0.3268
 695,28,F,50,PTSD,0.6826
 696,48,M,39,PTSD,0.5823
-697,66,M,59,Specific Phobia,
 698,20,M,38,PTSD,0.6471
 699,31,F,32,PTSD,0.5757
 700,51,M,59,PTSD,0.7657
@@ -704,7 +669,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 703,61,M,29,Social Phobia,0.2059
 704,56,F,21,Generalized Anxiety Disorder,0.3587
 705,26,M,40,PTSD,0.5735
-706,36,F,28,,
 707,26,F,62,PTSD,0.7584
 708,26,F,77,PTSD,0.8859
 709,58,F,7,Adult Separation Disorder,0.4951
@@ -734,7 +698,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 733,20,F,59,PTSD,0.7171
 734,57,F,14,Specific Phobia,0.1119
 735,37,M,31,Adult Separation Disorder,0.0432
-736,74,,1,Generalized Anxiety Disorder,
 737,27,F,50,PTSD,0.7342
 738,49,F,67,PTSD,0.8851
 739,20,F,35,PTSD,0.6123
@@ -805,7 +768,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 804,27,F,62,PTSD,0.8061
 805,58,F,31,Specific Phobia,0.0685
 806,44,F,70,PTSD,0.8518
-807,0,,53,Specific Phobia,
 808,26,M,17,Adult Separation Disorder,0.4715
 809,24,F,73,PTSD,0.9447
 810,50,F,65,PTSD,0.9828
@@ -829,13 +791,11 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 828,89,F,76,PTSD,0.9932
 829,56,F,40,PTSD,0.5565
 830,29,M,35,PTSD,0.5561
-831,90,M,49,Specific Phobia,
 832,56,M,60,PTSD,0.723
 833,18,M,27,Social Phobia,0.4566
 834,28,F,2,Specific Phobia,0.3306
 835,43,M,31,Generalized Anxiety Disorder,0.0135
 836,19,F,6,Generalized Anxiety Disorder,0.0951
-837,74,M,12,Obsessive-Compulsive Disorder,
 838,25,F,75,PTSD,0.8826
 839,48,F,18,Social Phobia,0.2278
 840,49,M,47,PTSD,0.5583
@@ -854,8 +814,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 853,41,M,22,Panic Disorder,0.3635
 854,24,M,80,PTSD,0.9625
 855,56,F,45,PTSD,0.5616
-856,39,M,0,,
-857,0,F,66,Social Phobia,
 858,69,F,5,Adult Separation Disorder,0.0257
 859,30,M,28,Generalized Anxiety Disorder,0.1121
 860,50,F,79,PTSD,0.8729
@@ -906,7 +864,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 905,34,M,1,Specific Phobia,0.1191
 906,51,M,59,PTSD,0.7514
 907,18,F,49,PTSD,0.7466
-908,0,F,25,Social Phobia,
 909,21,M,43,PTSD,0.5757
 910,30,F,29,Social Phobia,0.4083
 911,46,M,23,Adult Separation Disorder,0.4492
@@ -919,7 +876,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 918,38,F,32,PTSD,0.6586
 919,29,M,3,Generalized Anxiety Disorder,0.1693
 920,32,F,51,PTSD,0.7197
-921,68,,0,,
 922,34,M,20,Generalized Anxiety Disorder,0.2639
 923,58,F,45,PTSD,0.5753
 924,56,M,8,Specific Phobia,0.3884
@@ -968,14 +924,12 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 967,58,F,57,PTSD,0.7935
 968,51,M,0,Specific Phobia,0.1379
 969,32,M,26,Panic Disorder,0.2795
-970,0,M,74,,
 971,56,F,74,PTSD,0.9211
 972,51,F,72,PTSD,0.9095
 973,37,F,27,Generalized Anxiety Disorder,0.2654
 974,50,M,20,Obsessive-Compulsive Disorder,0.1148
 975,26,F,76,PTSD,0.8451
 976,59,M,16,Specific Phobia,0.0234
-977,0,M,72,Adult Separation Disorder,
 978,20,F,40,PTSD,0.5292
 979,20,F,10,Obsessive-Compulsive Disorder,0.1472
 980,31,M,2,Specific Phobia,0.4033
@@ -1009,7 +963,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1008,44,F,7,Panic Disorder,0.371
 1009,37,F,24,Specific Phobia,0.3206
 1010,41,F,22,Social Phobia,0.1227
-1011,0,M,23,PTSD,
 1012,43,F,47,PTSD,0.6549
 1013,40,F,14,Social Phobia,0.3548
 1014,57,M,58,PTSD,0.8114
@@ -1022,7 +975,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1021,27,F,12,Panic Disorder,0.0374
 1022,21,M,23,Generalized Anxiety Disorder,0.1514
 1023,25,M,39,PTSD,0.6229
-1024,0,F,27,Social Phobia,
 1025,55,M,0,Social Phobia,0.4178
 1026,86,F,71,PTSD,0.9053
 1027,18,M,37,PTSD,0.5475
@@ -1040,11 +992,9 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1039,36,M,19,Panic Disorder,0.1012
 1040,41,M,2,Obsessive-Compulsive Disorder,0.4869
 1041,59,F,48,PTSD,0.8276
-1042,89,,1,Obsessive-Compulsive Disorder,
 1043,19,F,40,PTSD,0.6469
 1044,20,M,9,Specific Phobia,0.1647
 1045,39,M,31,Generalized Anxiety Disorder,0.122
-1046,77,M,21,,
 1047,61,F,49,PTSD,0.7567
 1048,53,F,35,PTSD,0.6484
 1049,18,F,64,PTSD,0.9714
@@ -1067,7 +1017,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1066,65,M,72,PTSD,0.8885
 1067,45,M,26,Adult Separation Disorder,0.0871
 1068,72,F,62,PTSD,0.8095
-1069,0,,0,Social Phobia,
 1070,52,F,35,PTSD,0.5613
 1071,18,F,79,PTSD,0.8575
 1072,40,M,77,PTSD,0.8737
@@ -1079,7 +1028,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1078,27,F,31,Panic Disorder,0.2458
 1079,61,F,22,Generalized Anxiety Disorder,0.1877
 1080,39,M,13,Obsessive-Compulsive Disorder,0.3164
-1081,28,M,71,Panic Disorder,
 1082,23,F,55,PTSD,0.7726
 1083,29,M,12,Generalized Anxiety Disorder,0.3121
 1084,42,M,8,Social Phobia,0.0251
@@ -1087,7 +1035,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1086,46,M,13,Obsessive-Compulsive Disorder,0.1006
 1087,23,M,64,PTSD,0.9491
 1088,26,F,3,Obsessive-Compulsive Disorder,0.1168
-1089,63,,18,Social Phobia,
 1090,30,F,5,Panic Disorder,0.4642
 1091,45,F,57,PTSD,0.8125
 1092,56,M,55,PTSD,0.8237
@@ -1171,11 +1118,9 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1170,25,F,62,PTSD,0.6795
 1171,28,M,3,Adult Separation Disorder,0.2409
 1172,56,M,26,Adult Separation Disorder,0.472
-1173,55,F,0,Specific Phobia,
 1174,22,M,44,PTSD,0.5421
 1175,46,M,24,Social Phobia,0.1694
 1176,24,M,19,Social Phobia,0.4512
-1177,62,F,0,Generalized Anxiety Disorder,
 1178,31,F,7,Generalized Anxiety Disorder,0.2927
 1179,55,F,49,PTSD,0.8082
 1180,19,M,45,PTSD,0.5759
@@ -1202,14 +1147,12 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1201,43,F,65,PTSD,0.8612
 1202,28,F,66,PTSD,0.9927
 1203,57,F,79,PTSD,0.9899
-1204,28,F,2,PTSD,
 1205,38,F,69,PTSD,0.9467
 1206,24,F,71,PTSD,0.9532
 1207,60,F,32,PTSD,0.5723
 1208,23,F,13,Social Phobia,0.2906
 1209,55,F,68,PTSD,0.9313
 1210,33,M,7,Generalized Anxiety Disorder,0.088
-1211,67,M,16,,
 1212,52,M,47,PTSD,0.5157
 1213,24,M,15,Adult Separation Disorder,0.2597
 1214,56,M,78,PTSD,0.8522
@@ -1226,7 +1169,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1225,32,F,12,Adult Separation Disorder,0.2123
 1226,49,M,24,Social Phobia,0.3329
 1227,26,M,76,PTSD,0.9862
-1228,0,M,20,Specific Phobia,
 1229,59,F,41,PTSD,0.6519
 1230,40,M,1,Social Phobia,0.0391
 1231,29,M,12,Specific Phobia,0.1084
@@ -1237,7 +1179,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1236,18,F,43,PTSD,0.5914
 1237,18,M,76,PTSD,0.9889
 1238,40,M,58,PTSD,0.7968
-1239,0,M,30,Generalized Anxiety Disorder,
 1240,27,M,51,PTSD,0.7391
 1241,29,M,26,Obsessive-Compulsive Disorder,0.0046
 1242,21,F,9,Social Phobia,0.1345
@@ -1258,7 +1199,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1257,29,M,75,PTSD,0.9408
 1258,45,F,73,PTSD,0.892
 1259,55,M,65,PTSD,0.9165
-1260,88,,0,Specific Phobia,
 1261,57,F,2,Panic Disorder,0.1728
 1262,52,F,59,PTSD,0.7617
 1263,24,M,9,Adult Separation Disorder,0.4918
@@ -1321,7 +1261,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1320,56,M,76,PTSD,0.983
 1321,45,M,4,Obsessive-Compulsive Disorder,0.2475
 1322,52,M,24,Generalized Anxiety Disorder,0.2231
-1323,33,M,0,Adult Separation Disorder,
 1324,40,M,26,Generalized Anxiety Disorder,0.1331
 1325,34,M,28,Panic Disorder,0.381
 1326,54,F,22,Generalized Anxiety Disorder,0.0567
@@ -1405,7 +1344,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1404,18,M,29,Obsessive-Compulsive Disorder,0.1025
 1405,40,F,61,PTSD,0.745
 1406,45,F,76,PTSD,0.9504
-1407,90,F,0,Panic Disorder,
 1408,51,M,9,Adult Separation Disorder,0.4266
 1409,44,F,47,PTSD,0.6498
 1410,55,M,22,Adult Separation Disorder,0.3167
@@ -1425,7 +1363,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1424,20,F,64,PTSD,0.8582
 1425,80,M,46,PTSD,0.5615
 1426,54,F,46,PTSD,0.632
-1427,0,F,33,Generalized Anxiety Disorder,
 1428,23,M,0,Specific Phobia,0.2805
 1429,27,F,48,PTSD,0.7344
 1430,32,M,2,Generalized Anxiety Disorder,0.0799
@@ -1447,7 +1384,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1446,53,M,0,Social Phobia,0.2412
 1447,37,M,21,Generalized Anxiety Disorder,0.2255
 1448,51,F,56,PTSD,0.8058
-1449,0,F,74,Adult Separation Disorder,
 1450,53,M,39,PTSD,0.5619
 1451,56,F,17,Obsessive-Compulsive Disorder,0.0105
 1452,24,M,45,PTSD,0.5731
@@ -1468,7 +1404,6 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1467,31,M,17,Specific Phobia,0.4868
 1468,42,M,40,PTSD,0.6125
 1469,19,M,21,Social Phobia,0.3504
-1470,0,,31,,
 1471,42,F,48,PTSD,0.7209
 1472,60,M,68,PTSD,0.9606
 1473,21,M,31,Adult Separation Disorder,0.3878
@@ -1486,5 +1421,4 @@ ID,Age,Sex,PCL-Score,PTSD,PTSD_Percentile
 1485,32,M,11,Adult Separation Disorder,0.202
 1486,30,F,19,Generalized Anxiety Disorder,0.1396
 1487,36,M,28,Adult Separation Disorder,0.018
-1488,0,F,35,,
 1489,24,F,28,Social Phobia,0.0713

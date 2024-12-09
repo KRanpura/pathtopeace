@@ -2,7 +2,7 @@
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
@@ -15,12 +15,13 @@ os.makedirs(model_dir, exist_ok=True)
 
 
 #load the three generated datasets 
-df1 = pd.read_csv("model\ptsd_survey1.csv")
-df2 = pd.read_csv("model\ptsd_survey2.csv")
-df3 = pd.read_csv("model\ptsd_survey3.csv")
+# df1 = pd.read_csv("model\ptsd_survey1.csv")
+# df2 = pd.read_csv("model\ptsd_survey2.csv")
+# df3 = pd.read_csv("model\ptsd_survey3.csv")
 
+df1 = pd.read_csv("model\cleaned_survey1.csv")
 #combine all three datasets into one single datasets
-ptsd_survey = pd.concat([df1, df2, df3], axis=0, ignore_index=True)
+ptsd_survey = pd.concat([df1], axis=0, ignore_index=True)
 
 #clean the dataframe by transfering into a new one, removing duplicates and dropping any rows with nan values
 cleaned_survey = pd.DataFrame(ptsd_survey)
@@ -30,9 +31,13 @@ cleaned_survey.dropna(inplace=True)
 #convert the 'Sex' category into 0 fort Female and 1 for Male, making it easier for the model later
 cleaned_survey['Sex'] = cleaned_survey['Sex'].replace({'F': 0, 'M': 1})
 
+label_encoder = LabelEncoder()
+cleaned_survey['Disorder_Encoded'] = label_encoder.fit_transform(cleaned_survey['Disorder'])
+
+
 #X {age, sex, score} is defined as values that would determine the Y {PTSD percentage} value
 X = cleaned_survey[['Age', 'Sex', 'PCL-Score']]
-Y = cleaned_survey['PTSD']
+Y = cleaned_survey['PTSD_Percentile']
 
 #this is the line that is used to train imported from sklearn
 #we also used this in our Lab3 for data management, so similar strcuture to follow
@@ -64,7 +69,6 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
 print(cleaned_survey['Sex'].value_counts())  # See how many males and females are in the dataset
-print(cleaned_survey['PTSD'].groupby(cleaned_survey['Sex']).mean())
 
 print(f"Mean Squared Error: {mse:.2f}")
 print(f"R-squared: {r2:.2f}")
