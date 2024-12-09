@@ -465,10 +465,10 @@ h2 {
     line-height: 1.8; 
     word-wrap: break-word; 
     margin-top: 15px; 
-    text-align: center; /* Centered text for consistency */
-    max-width: 220px; /* Limit the width to maintain structure */
-    padding: 0 10px; /* Add padding for better spacing inside the container */
-    font-family: 'Lato', sans-serif; /* Ensure consistent font style */
+    text-align: center; 
+    max-width: 220px;
+    padding: 0 10px; 
+    font-family: 'Lato', sans-serif; 
 }
 
 
@@ -560,8 +560,8 @@ h2 {
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Lato', sans-serif; /* Ensure consistent font style */
-    line-height: 1.6; /* Add line spacing for better readability */
+    font-family: 'Lato', sans-serif; 
+    line-height: 1.6; 
     color: #fff; 
 }
 
@@ -574,10 +574,10 @@ h2 {
 .thank-you-container {
     display: flex;
     flex-direction: column;
-    align-items: center;        /* Centers horizontally */
-    justify-content: center;    /* Centers vertically */
-    height: 100vh;              /* Full viewport height */
-    text-align: center;         /* Center text inside the container */
+    align-items: center;      
+    justify-content: center;   
+    height: 100vh;              
+    text-align: center;        
     padding: 20px;
 }
 
@@ -595,18 +595,18 @@ h2 {
 
 
 .doc-post {
-    background-color: #d4edda; /* Light green background */
-    border-left: 5px solid #28a745; /* Green border */
+    background-color: #d4edda; 
+    border-left: 5px solid #28a745; 
 }
 
 /* Style for doctor's replies */
 .doc-reply {
-    background-color: #d4edda; /* Light green background */
-    border-left: 5px solid #28a745; /* Green border */
+    background-color: #d4edda;
+    border-left: 5px solid #28a745; 
 }
 
 .results-container {
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); 
     width: 70%;
     max-width: 800px;
     margin: 30px auto;
@@ -703,20 +703,20 @@ h2 {
 
 /* Search Bar */
 .search-bar {
-    width: 80%; /* Adjust width to make it more prominent */
-    padding: 12px 20px; /* Increased padding for a cleaner, larger input */
-    font-size: 1.1rem; /* Slightly larger text for better readability */
-    border-radius: 25px; /* Rounded corners for a more modern look */
-    border: .1px solid #2c2c2c; /* Yellow border to match your theme */
-    background-color: #f9f9f9; /* Light background to contrast with the border */
-    transition: all 0.3s ease; /* Smooth transition on focus */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 80%; 
+    padding: 12px 20px;  
+    font-size: 1.1rem;  
+    border-radius: 25px;  
+    border: .1px solid #2c2c2c;  
+    background-color: #f9f9f9; 
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* Focus effect for the search bar */
 .search-bar:focus {
-    outline: none; /* Remove default outline */
-    background-color: #fff; /* White background when focused */
+    outline: none; 
+    background-color: #fff; 
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -724,8 +724,8 @@ h2 {
 @media (max-width: 768px) {
     .search-bar {
         color: #333;
-        width: 100%; /* Make the search bar full width on smaller screens */
-        padding: 12px; /* Adjust padding for better spacing on smaller devices */
+        width: 100%; 
+        padding: 12px; 
     }
 }
 
