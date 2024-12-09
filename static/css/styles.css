@@ -101,17 +101,42 @@
     }
 }
 
+
 .mission-statement {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     line-height: 2; 
     font-weight: 500; 
     font-family: 'Lato', sans-serif; 
     color: #FFFFFF; 
     text-align: center; 
     margin: 20px 0; 
-    margin-bottom: 6%;
+    margin-bottom: 0%;
     letter-spacing: 0.75px;
+    animation: fadeIn 2s ease-out;
+}
+.mission-statement2 {
+    font-size: 1.5rem; 
+    line-height: 2; 
+    font-weight: 500; 
+    font-family: 'Lato', sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 20px 0; 
+    margin-bottom: 4%;
+    letter-spacing: 0.75px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-out 2s forwards;;
+}
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
 }
 
 h1,h2 {
