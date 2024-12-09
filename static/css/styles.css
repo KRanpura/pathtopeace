@@ -6,15 +6,11 @@
     .chart-container {
         max-width: 90%;
     }
-    .button-container .button {
-        width: 100%;
-    }
+
  }
 
 
- .button, .login-form input, .signup-form input {
-    transition: all 0.3s ease-in-out;
- }
+
 
  keyword{
     background: linear-gradient(45deg, #4c9fa8, #769bac, #b3e5e1, #d1e9f7);
@@ -47,6 +43,8 @@
     opacity: 0.2;
     animation: bounce 6s infinite ease-in-out;
     filter: blur(10px);
+    pointer-events: none;
+    z-index: -1;
 }
 
 .shape-1 {
@@ -134,7 +132,19 @@
     opacity: 0;
     animation: fadeIn 2.5s ease-out 2s forwards;;
 }
-
+.mission-statement3 {
+    font-size: 2.5rem; 
+    line-height: 2; 
+    font-weight: 500; 
+    font-family: 'Lato', sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 20px 0; 
+    margin-bottom: 0%;
+    letter-spacing: 0.75px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    animation: fadeIn 2s ease-out;
+}
 @keyframes fadeIn {
     0% {
         opacity: 0; 
@@ -170,6 +180,14 @@ h1,h2 {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.no-scroll {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;  /* Prevent scrolling */
+}
+
+
 
 .navbar {
     background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
@@ -210,23 +228,20 @@ h1,h2 {
 }
 
 .navbar a:hover {
-    color: #FFEB3B; /* Hover effect: white-yellow */
+    color: #FFEB3B;
 }
 
-/* Center the chart container */
 .chart-container {
-    max-width: 600px; /* Limit the width to 600px */
-    margin: 0 auto; /* Center the container */
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-/* Ensure the canvas fits inside the container */
 .chart-container canvas {
-    width: 100%; /* Adjust to container's width */
-    height: 400px; /* Set a specific height */
+    width: 100%;
+    height: 400px;
 }
 
-/* Main content styling */
 main {
     padding: 20px;
     text-align: center;
@@ -243,35 +258,63 @@ main {
     display: inline-block;
     padding: 12px 24px;
     margin: 10px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    background: linear-gradient(45deg, #FFEB3B, #f1eccd); /* White-yellow */
+    background: linear-gradient(45deg, #FFEB3B, #f1eccd);
     text-decoration: none;
     font-weight: bold;
-    border-radius: 30px; /* Smooth, rounded corners */
-    transition: background-image 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Transition for each effect */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 30px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-    background: linear-gradient(45deg, #FFD700, #FFEB3B); /* Reverse gradient on hover */
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(45deg, #f1eccd, #FFEB3B);
+    transform: scale(1.05);
 }
 
 .button:active {
-    transform: scale(1); /* Reset scale on click */
+    transform: scale(1);
 }
 
+.role-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background: linear-gradient(45deg, #4169E1, #6a8dff);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
 
-/* Login form styling */
+.role-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.role-button.active {
+    background: linear-gradient(45deg, #FFEB3B, #FFD700);
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 2px solid #FFD700;
+}
+
 .login-form {
     max-width: 300px;
     margin: 20px auto;
     padding: 20px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    border-radius: 8px;
+    background: linear-gradient(45deg, #4169E1, #6a8dff);
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .login-form label {
@@ -280,6 +323,11 @@ main {
     color: #FFFFFF;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
+}
+
+.login-form button {
+    width: auto;
+    margin-top: 10px;
 }
 
 .login-form input[type="text"],
@@ -292,23 +340,6 @@ main {
     font-family: 'Lato', sans-serif;
 }
 
-.login-form .button {
-    width: 100%;
-    padding: 10px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    background-color: #FFEB3B; /* White-yellow */
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.login-form .button:hover {
-    background-color: #FFD700; /* Darker yellow on hover */
-    color: #FFFFFF;
-}
-
 .signup-text {
     text-align: center;
     margin-top: 15px;
@@ -316,15 +347,16 @@ main {
 }
 
 .signup-text a {
-    color: #FFEB3B; /* White-yellow */
+    color: #FFEB3B;
     text-decoration: none;
     font-weight: bold;
 }
 
 .signup-text a:hover {
-    color: #FFD700; /* Darker yellow on hover */
+    color: #FFD700;
     text-decoration: underline;
 }
+
 
 /* Signup form styling */
 .signup-form {
@@ -363,22 +395,6 @@ main {
     border-radius: 4px;
 }
 
-.signup-form .button {
-    width: 100%;
-    padding: 10px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    background-color: #FFEB3B; /* White-yellow */
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.signup-form .button:hover {
-    background-color: #FFD700; /* Darker yellow on hover */
-    color: #FFFFFF;
-}
 
 .email-note {
     display: block;
@@ -388,26 +404,6 @@ main {
     text-align: left;
 }
 
-/* Button container styles */
-.button-container .button {
-    display: inline-block;
-    padding: 12px 24px;
-    margin: 10px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    background-color: #FFEB3B; /* White-yellow */
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-/* Active button styles */
-.button-container .button.active {
-    background-color: #FFD700; /* Darker yellow */
-    color: #FFFFFF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
 
 /* Styling for "What we offer" heading */
 h2 {
@@ -547,9 +543,18 @@ h2 {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', sans-serif; /* Ensure consistent font style */
+    line-height: 1.6; /* Add line spacing for better readability */
+    color: #fff; 
 }
+
+.form-container .form-group {
+    margin-bottom: 20px; /* Space between form elements */
+}
+
+
 
 .thank-you-container {
     display: flex;
@@ -573,22 +578,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-.thank-you-container .button {
-    padding: 12px 24px;
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
-    background-color: #FFEB3B; /* White-yellow */
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.thank-you-container .button:hover {
-    background-color: #FFD700; /* Darker yellow on hover */
-    color: #FFFFFF;
-}
 
 .doc-post {
     background-color: #d4edda; /* Light green background */
@@ -661,6 +650,7 @@ h2 {
     animation: fadeInFromTop 1s ease-out forwards; 
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .graphs-img:hover {
@@ -689,11 +679,12 @@ h2 {
 
 .graph-subtext {
     font-size: 14px;
-    color: #b3b3b3;
+    color: #333;
     margin-top: 10px;
     text-align: center;
     font-style: italic;
 }
+
 
 /* Search Bar */
 .search-bar {
@@ -723,6 +714,10 @@ h2 {
     }
 }
 
+.link-subtext{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    
+}
 .search-bar::placeholder {
     color: #383838; /* A lighter color for the placeholder */
 }

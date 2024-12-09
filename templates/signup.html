@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     </head>
     <body>
+
         <!-- Navbar -->
         <nav class="navbar">
             <h1>
@@ -20,26 +21,26 @@
         
         <!-- Main Content -->
         <main>
-            <p>Create an account with us</p>
+            <p class="mission-statement">Create an account with us</p>
             <form action="/signup" method="post" class="login-form">
 
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
                 <small class="email-note">We won't send you any emails unless you need a password reset.</small>
 
-                <label for="first">First Name:</label>
+                <label for="first">First Name</label>
                 <input type="text" id="first" name="first" required>
                 
-                <label for="last">Last Name:</label>
+                <label for="last">Last Name</label>
                 <input type="text" id="last" name="last" required>
 
-                <label for="password">Password:</label>
+                <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
                 
-                <label for="age">Age:</label>
+                <label for="age">Age</label>
                 <input type="number" id="age" name="age" min="18" max="100" required>
 
-                <label for="sex">Sex:</label>
+                <label for="sex">Sex</label>
                 <div class="sex-options">
                     <input type="radio" id="male" name="sex" value="M" required>
                     <label for="male">Male</label>
@@ -49,15 +50,15 @@
                 </div>
 
                 <input type="hidden" id="role" name="role" value="">
-                <div class="button-container">
-                    <input type="button" class="button" value="I am a healthcare provider" id="doc" onclick="setActive(this)">
-                    <input type="button" class="button" value="I am looking for help"id="patient" onclick="setActive(this)">
+                <div class="role-button-container">
+                    <input type="button" class="role-button" value="I am a healthcare provider" id="doc" onclick="setActive(this)">
+                    <input type="button" class="role-button" value="I am looking for help"id="patient" onclick="setActive(this)">
                 </div>
 
                 <script>
                     function setActive(button) {
                         // Remove "active" class from all buttons
-                        document.querySelectorAll('.button-container .button').forEach(btn => btn.classList.remove('active'));
+                        document.querySelectorAll('.role-button-container .role-button').forEach(btn => btn.classList.remove('active'));
                         button.classList.add('active'); /*add tag */
 
                         // Set the role based on the clicked button

@@ -24,20 +24,21 @@
         
         <!-- Main Content -->
         <main>
-            <h2>Hi {{ session["name"] }}, take a look at our info page:</h2>
+            <p class="mission-statement3">Hello {{ session["name"] }}, welcome to our info page:</p>
         
-            <div class="graphs">
-                <h3>National Institude of Mental Health PTSD Graph</h3>
-                <a href="https://www.nimh.nih.gov/health/statistics/post-traumatic-stress-disorder-ptsd#part_2612" target="_blank">
-                    <img src="{{ url_for('static', filename='data/nihgraph.png') }}" alt="Graph 1" class="graphs-img">
-                </a>                <div class="graph-subtext">This graph shows the analysis of PTSD data among adults. (n=9282)</div>
         
-                <h3>National Institude of Mental Health PTSD Pie Chart</h3>
+                <h3 class ="link-subtext">National Institude of Mental Health PTSD Pie Chart</h3>
                 <a href="https://www.nimh.nih.gov/health/statistics/post-traumatic-stress-disorder-ptsd#part_2612" target="_blank">
                     <img src="{{ url_for('static', filename='data/nihpiechart.jpg') }}" alt="Graph 2" class="graphs-img">
                 </a>                <div class="graph-subtext">This pie chart display the distribution of PTSD cases via severity level. (n=9282)</div>
         
-                <h3>Predicted PTSD vs Actual Linear Regression</h3>
+                <div class="graphs">
+                    <h3 class ="link-subtext">National Institude of Mental Health PTSD Graph</h3>
+                    <a href="https://www.nimh.nih.gov/health/statistics/post-traumatic-stress-disorder-ptsd#part_2612" target="_blank">
+                        <img src="{{ url_for('static', filename='data/nihgraph.png') }}" alt="Graph 1" class="graphs-img">
+                    </a>                <div class="graph-subtext">This graph shows the analysis of PTSD data among adults. (n=9282)</div>
+                
+                <h3 class ="link-subtext">Predicted PTSD Prediction Model</h3>
                 <img src="{{ url_for('static', filename='data/ptsd_prediction_model.png') }}" alt="Graph 3" class="graphs-img"  width="800" height="500">
                 <div class="graph-subtext">This plot compares predicted PTSD outcomes with actual results. (n=9282)*3</div>
                 <div>                  .                    </div>
@@ -52,26 +53,27 @@
             </div>
 
             
+            
             <div class="additional-links">
                 <div class="link-item">
                     <img src="static\links\nih.jpg" alt="image1">
                     <h4><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4158713/">NIH PTSD MISDIAGNOSIS STUDY</a></h4>
                     <h4><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6457163/">NIH PTSD UNDETECTED STUDY</a></h4>
-                    <p>Often, PTSD gets misdiagnosed as depression, anxiety, obsessiveness, and other mental health conditions causing mistreatment.</p>
-                    <p>Most times, PTSD can go undetected due to factors of misconception, negligence, and an overwhelmingly unfair stigma</p>
+                    <p class="link-subtext">Often, PTSD gets misdiagnosed as depression, anxiety, obsessiveness, and other mental health conditions causing mistreatment.</p>
+                    <p class="link-subtext">Most times, PTSD can go undetected due to factors of misconception, negligence, and an overwhelmingly unfair stigma</p>
                 </div>
         
                 <div class="link-item">  
                     <img src="static\links\harvard.jpg" alt="image2">
                     <h4><a href="https://www.hcp.med.harvard.edu/ncs/ftpdir/table_ncsr_12monthprevgenderxage.pdf">NCSR HARVARD SURVEY DATA</a></h4>
-                    <p>Path to Peace used interpreted data from a mental health survey that ioncluded PTSD to find the total percentile of adults with PTSD categorized via Sex and Age</p>
-                    <p>After transferring the data into a database, we use Linear Regression Machine Learning Model in order to predict accuracy of users with PTSD</p>
+                    <p class="link-subtext">Path to Peace used interpreted data from a mental health survey that ioncluded PTSD to find the total percentile of adults with PTSD categorized via Sex and Age</p>
+                    <p class="link-subtext">After transferring the data into a database, we use Linear Regression Machine Learning Model in order to predict accuracy of users with PTSD</p>
                 </div>
                 <div class="link-item">
                     <img src="static\links\us.jpg" alt="image3">
                     <h4><a href="https://www.ptsd.va.gov/professional/assessment/adult-sr/ptsd-checklist.asp">PCL-5 DOCUMENTATION</a></h4>
-                    <p>Path to Peace follows the PCL-5 scoring system used by the United State's government and liscenced practioners to diagnose individuals with PTSD</p>
-                    <p>This 20 quesiton survey is judged off 31-33 point cut off in order to categorize individuals with PTSD</p>
+                    <p class="link-subtext">Path to Peace follows the PCL-5 scoring system used by the United State's government and liscenced practioners to diagnose individuals with PTSD</p>
+                    <p class="link-subtext">This 20 quesiton survey is judged off 31-33 point cut off in order to categorize individuals with PTSD</p>
                 </div>
             </div>
         </main>

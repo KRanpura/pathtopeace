@@ -26,10 +26,10 @@
         
         <!-- Main Content -->
         <main>
-            <h2>Hi {{ session["name"] }}, welcome to your profile!</h2>
+            <p class="mission-statement3">Hello {{ session["name"] }}, welcome to your profile</p>
             
             <!-- PCL-5 Score History -->
-            <h3>Your PCL-5 score history:</h3>
+            <h3 class="link-subtext">Your PCL-5 score history:</h3>
             {% if pcl5_scores %}
             <div class="chart-container">
                 <canvas id="pcl5Chart"></canvas>
@@ -50,12 +50,18 @@
                     // Create the Chart.js chart
                     const ctx = document.getElementById('pcl5Chart').getContext('2d');
                     new Chart(ctx, {
-                        type: 'scatter',
+                        type: 'line',
                         data: {
                             datasets: [{
                                 label: 'PCL-5 Scores',
                                 data: chartData,
                                 backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                                pointRadius: 8,
+                                pointHoverRadius: 10, 
+                                borderColor: 'rgba(0, 0, 128, 0.6)', // Color of the line connecting the dots
+                                borderWidth: 2, // Thickness of the line
+                                tension: 0.4, // Smooth the line (use 0 for straight lines)
+                                fill: false 
                             }]
                         },
                         options: {
@@ -92,7 +98,7 @@
             {% endif %}
             
             <!-- Forum Posts -->
-            <h3>Your forum posts:</h3>
+            <h3 class="link-subtext">Your forum posts:</h3>
             {% if forum_posts %}
             <ul>
                 {% for post in forum_posts %}
@@ -104,7 +110,7 @@
                 {% endfor %}
             </ul>
             {% else %}
-            <p>No posts yet.</p>
+            <p class="link-subtext">No posts yet.</p>
             {% endif %}
         </main>
     </body>
