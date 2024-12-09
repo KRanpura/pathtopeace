@@ -1,13 +1,121 @@
-body {
-    background-color: #191970; /* Midnight blue */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .chart-container {
+        max-width: 90%;
+    }
+    .button-container .button {
+        width: 100%;
+    }
+ }
+
+
+ .button, .login-form input, .signup-form input {
+    transition: all 0.3s ease-in-out;
+ }
+
+ body {
+    background: linear-gradient(45deg, #4c9fa8, #769bac, #b3e5e1, #d1e9f7);
+    background-size: 400% 400%;
     color: #FFEB3B; /* White-yellow */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.home-page {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Disable scrolling on home page */
+    box-sizing: border-box;
+}
+
+/* Bouncing Shape Styles */
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    animation: bounce 6s infinite ease-in-out;
+    filter: blur(10px);
+}
+
+.shape-1 {
+    width: 320px;
+    height: 320px;
+    background-color: rgba(255, 235, 59, 0.8); /* Light yellow color */
+    animation-duration: 130s;
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 72, 59, 0.8); /* Light yellow color */
+    animation-duration: 170s;
+    animation-delay: 0s;
+}
+
+.shape-3 {
+    width: 360px;
+    height: 360px;
+    background-color: rgba(186, 255, 59, 0.8); /* Light yellow color */
+    animation-duration: 110s;
+    animation-delay: 0s;
+}
+
+.shape-4 {
+    width: 480px;
+    height: 480px;
+    background-color: rgba(72, 59, 255, 0.8); /* Light yellow color */
+    animation-duration: 140s;
+    animation-delay: 0s;
+}
+
+.shape-5 {
+    width: 540px;
+    height: 540px;
+    background-color: rgba(177, 59, 255, 0.8); /* Light yellow color */
+    animation-duration: 130s;
+    animation-delay: 0s;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0% {
+        transform: translate(calc(100vw * var(--x1)), calc(100vh * var(--y1)));
+    }
+    25% {
+        transform: translate(calc(100vw * var(--x2)), calc(100vh * var(--y2)));
+    }
+    50% {
+        transform: translate(calc(100vw * var(--x3)), calc(100vh * var(--y3)));
+    }
+    75% {
+        transform: translate(calc(100vw * var(--x4)), calc(100vh * var(--y4)));
+    }
+    100% {
+        transform: translate(calc(100vw * var(--x1)), calc(100vh * var(--y1)));
+    }
+}
+
+.mission-statement {
+    font-size: 2rem; 
+    line-height: 2; 
+    font-weight: 500; 
+    font-family: 'Lato', sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 20px 0; 
+    margin-bottom: 6%;
+    letter-spacing: 0.75px;
+
+}
+
 h1,h2 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 
@@ -18,14 +126,18 @@ h1,h2 {
     margin-right: 10px;
 }
 
-/* Navbar styling */
 .navbar {
-    background-color: #4169E1; /* Light blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     color: #FFFFFF;
-    padding: 25px;
+    padding: 15px 20px; /* Adjusted padding to make it shorter */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #5a87c1; /* Light blue border */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    opacity: .85;
 }
 
 .navbar h1 {
@@ -74,7 +186,7 @@ main {
     padding: 20px;
     text-align: center;
     font-size: 1.1em;
-    font-family: 'Nunito';
+    font-family: 'Lato';
 }
 
 .button-container {
@@ -115,7 +227,7 @@ main {
     margin: 10px 0 5px;
     color: #FFFFFF;
     font-weight: bold;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .login-form input[type="text"],
@@ -125,7 +237,7 @@ main {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .login-form .button {
@@ -283,14 +395,19 @@ h2 {
 
 /* Icon label styling */
 .icon-label {
-    font-size: 0.9em;
-    color: #FFEB3B;  /* White-yellow for icon labels */
-    transition: color 0.3s;
-    word-wrap: break-word;
-    margin-top: 10px;
-    text-align: center;
-    width: 200px;
+    font-size: 1em; 
+    font-weight: 400; 
+    color: #FFFFFF; 
+    transition: color 0.3s ease-in-out; 
+    line-height: 1.8; 
+    word-wrap: break-word; 
+    margin-top: 15px; 
+    text-align: center; /* Centered text for consistency */
+    max-width: 220px; /* Limit the width to maintain structure */
+    padding: 0 10px; /* Add padding for better spacing inside the container */
+    font-family: 'Lato', sans-serif; /* Ensure consistent font style */
 }
+
 
 /* Icon label hover effect */
 .icon-item a:hover .icon-label {

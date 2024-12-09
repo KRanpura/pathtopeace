@@ -4,15 +4,50 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Path to Peace</title>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     </head>
-    <body>
+    <body class = "home-page">
+
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    
+        <script>
+            function getRandomPosition(min, max) {
+                return (Math.random() * (max - min) + min).toFixed(2);
+            }
+    
+            window.onload = function() {
+                const shapes = document.querySelectorAll('.shape');
+                
+                shapes.forEach(shape => {
+                    const x1 = getRandomPosition(0, 1);
+                    const y1 = getRandomPosition(0, 1);
+                    const x2 = getRandomPosition(0, 1);
+                    const y2 = getRandomPosition(0, 1);
+                    const x3 = getRandomPosition(0, 1);
+                    const y3 = getRandomPosition(0, 1);
+                    const x4 = getRandomPosition(0, 1);
+                    const y4 = getRandomPosition(0, 1);
+                    
+                    shape.style.setProperty('--x1', x1);
+                    shape.style.setProperty('--y1', y1);
+                    shape.style.setProperty('--x2', x2);
+                    shape.style.setProperty('--y2', y2);
+                    shape.style.setProperty('--x3', x3);
+                    shape.style.setProperty('--y3', y3);
+                    shape.style.setProperty('--x4', x4);
+                    shape.style.setProperty('--y4', y4);
+                });
+            };
+        </script>
         <!-- Navbar -->
         <nav class="navbar">
             <h1>
                 Path to Peace
-                <img src="{{ url_for('static', filename='images/nstar.png') }}" alt="PathtoPeace Logo" class="logo">
             </h1>
             <ul>
                 {% if session.get('user_id') %}
@@ -32,31 +67,29 @@
         
         <!-- Main Content -->
         <main>
-            <p>Let us guide you one step closer to your PTSD diagnosis, and ensure that you're never alone in the fight after.</p>
+            <p class="mission-statement">You're never alone PTSD diagnosis, and ensure that you're never alone in the fight after.</p>
             
-            <h2>What we offer:</h2>
             
             <div class="icons-container">
                 <div class="icon-item">
                     <a href="{% if session.get('user_id') %}/questionnaire{% else %}/signup{% endif %}">
-                        <img src="static/images/icon1.png" alt="Icon 1" class="icon">
+                        <img src="static\images\forum.png" alt="Icon 1" class="icon">
                         <p class="icon-label">Obtain a quick base diagnosis based on our Harvard study inspired questionnaire</p>
                     </a>
                 </div>
                 <div class="icon-item">
                     <a href="{% if session.get('user_id') %}/forum{% else %}/signup{% endif %}">
-                        <img src="static/images/icon2.png" alt="Icon 2" class="icon">
+                        <img src="static\images\chat.png" alt="Icon 2" class="icon">
                         <p class="icon-label">Post anonymously on our chat forum to connect with a community of healthcare providers and other users</p>
                     </a>
                 </div>
                 <div class="icon-item">
                     <a href="{% if session.get('user_id') %}/profile{% else %}/signup{% endif %}">
-                        <img src="static/images/icon3.png" alt="Icon 3" class="icon">
+                        <img src="static\images\progress.png" alt="Icon 3" class="icon">
                         <p class="icon-label">Track your mental health journey and set goals</p>
                     </a>
                 </div>
             </div>
-            <h2>And more!</h2>
         </main>
     </body>
 </html>
