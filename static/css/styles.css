@@ -187,6 +187,21 @@ h1,h2 {
     overflow: hidden;  /* Prevent scrolling */
 }
 
+.post {
+    background-color: #ffffff; /* Default background color (white) */
+    color: #000; /* Default text color */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Doctor-specific post styling */
+.doc-post {
+    background-color: #e0f7fa; /* Light cyan (distinct from white) */
+    color: #000000; /* Darker text for contrast */
+    border-left: 5px solid #00acc1; /* Optional: Accent border */
+}
 
 
 .navbar {
