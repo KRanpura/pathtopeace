@@ -13,14 +13,8 @@ import joblib
 model_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model")
 os.makedirs(model_dir, exist_ok=True)
 
-
-#load the three generated datasets 
-# df1 = pd.read_csv("model\ptsd_survey1.csv")
-# df2 = pd.read_csv("model\ptsd_survey2.csv")
-# df3 = pd.read_csv("model\ptsd_survey3.csv")
-
 df1 = pd.read_csv("model\cleaned_survey1.csv")
-#combine all three datasets into one single datasets
+
 ptsd_survey = pd.concat([df1], axis=0, ignore_index=True)
 
 #clean the dataframe by transfering into a new one, removing duplicates and dropping any rows with nan values

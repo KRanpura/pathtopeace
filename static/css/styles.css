@@ -198,14 +198,14 @@ h1,h2 {
 
 /* Doctor-specific post styling */
 .doc-post {
-    background-color: #e0f7fa; /* Light cyan (distinct from white) */
-    color: #000000; /* Darker text for contrast */
-    border-left: 5px solid #00acc1; /* Optional: Accent border */
+    background-color: #e0f7fa; 
+    color: #000000; 
+    border-left: 5px solid #00acc1; 
 }
 
 
 .navbar {
-    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); 
     color: #FFFFFF;
     padding: 15px 20px; /* Adjusted padding to make it shorter */
     display: flex;
