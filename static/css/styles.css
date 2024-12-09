@@ -16,10 +16,17 @@
     transition: all 0.3s ease-in-out;
  }
 
+ keyword{
+    background: linear-gradient(45deg, #4c9fa8, #769bac, #b3e5e1, #d1e9f7);
+    background-size: 400% 400%;
+    color: #FFFFFF; /* White-yellow */
+    font-family: 'Lato', sans-serif;
+ }
+
  body {
     background: linear-gradient(45deg, #4c9fa8, #769bac, #b3e5e1, #d1e9f7);
     background-size: 400% 400%;
-    color: #FFEB3B; /* White-yellow */
+    color: #FFFFFF; /* White-yellow */
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
@@ -139,6 +146,19 @@
     }
 }
 
+.sub-text1 {
+    font-size: 1rem; 
+    line-height: 2; 
+    font-weight: 500; 
+    font-family: 'Lato', sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 20px 0; 
+    letter-spacing: 0.75px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-out 2s forwards;;
+}
+
 h1,h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -223,25 +243,32 @@ main {
     display: inline-block;
     padding: 12px 24px;
     margin: 10px;
-    color: #191970; /* Midnight blue */
-    background-color: #FFEB3B; /* White-yellow */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
+    background: linear-gradient(45deg, #FFEB3B, #f1eccd); /* White-yellow */
     text-decoration: none;
     font-weight: bold;
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 30px; /* Smooth, rounded corners */
+    transition: background-image 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Transition for each effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .button:hover {
-    background-color: #FFD700; /* Darker yellow on hover */
-    color: #FFFFFF;
+    background: linear-gradient(45deg, #FFD700, #FFEB3B); /* Reverse gradient on hover */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+.button:active {
+    transform: scale(1); /* Reset scale on click */
+}
+
 
 /* Login form styling */
 .login-form {
     max-width: 300px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #4169E1; /* Light blue background */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -268,7 +295,7 @@ main {
 .login-form .button {
     width: 100%;
     padding: 10px;
-    color: #191970; /* Midnight blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     background-color: #FFEB3B; /* White-yellow */
     border: none;
     border-radius: 4px;
@@ -303,7 +330,7 @@ main {
 .signup-form {
     max-width: 300px;
     margin: 30px auto;
-    background-color: #4169E1; /* Light blue background */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
@@ -339,7 +366,7 @@ main {
 .signup-form .button {
     width: 100%;
     padding: 10px;
-    color: #191970; /* Midnight blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     background-color: #FFEB3B; /* White-yellow */
     border: none;
     border-radius: 4px;
@@ -366,7 +393,7 @@ main {
     display: inline-block;
     padding: 12px 24px;
     margin: 10px;
-    color: #191970; /* Midnight blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     background-color: #FFEB3B; /* White-yellow */
     border: none;
     border-radius: 8px;
@@ -479,58 +506,20 @@ h2 {
     text-align: right;
 }
 
-/* Make post button */
-.left-panel .button {
-    padding: 12px 20px;
-    background-color: #FFEB3B;
-    color: #191970;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.left-panel .button:hover {
-    background-color: #FFD700;
-    color: #FFFFFF;
-}
 
 /* Search bar styles */
 .search-bar {
-    padding: 10px;
     flex-grow: 1;
     width: calc(100% - 110px);
     max-width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #191970;
-    font-size: 1em;
-    margin-right: 5px;
-}
 
-/* Right panel button styles */
-.right-panel .button {
-    padding: 10px 15px;
-    background-color: #FFEB3B;
-    color: #191970;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.right-panel .button:hover {
-    background-color: #FFD700;
-    color: #FFFFFF;
 }
 
 /* Posts container */
 .posts-container {
     width: 100%;
     max-width: 1000px;
-    background-color: #4169E1;
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     text-align: center;
     padding: 20px;
     border-radius: 8px;
@@ -546,14 +535,14 @@ h2 {
 /* Post styling */
 .post {
     background-color: #FFFFFF;
-    color: #191970;
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
 .form-container {
-    background-color: #4169E1;
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     width: 70%;
     max-width: 800px;
     margin: 30px auto;
@@ -586,7 +575,7 @@ h2 {
 
 .thank-you-container .button {
     padding: 12px 24px;
-    color: #191970; /* Midnight blue */
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     background-color: #FFEB3B; /* White-yellow */
     border: none;
     border-radius: 8px;
@@ -613,7 +602,7 @@ h2 {
 }
 
 .results-container {
-    background-color: #4169E1;
+    background: linear-gradient(45deg, #4169E1, #6a8dff); /* Light gradient from blue to lighter blue */
     width: 70%;
     max-width: 800px;
     margin: 30px auto;
@@ -704,4 +693,36 @@ h2 {
     margin-top: 10px;
     text-align: center;
     font-style: italic;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 80%; /* Adjust width to make it more prominent */
+    padding: 12px 20px; /* Increased padding for a cleaner, larger input */
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+    border-radius: 25px; /* Rounded corners for a more modern look */
+    border: .1px solid #2c2c2c; /* Yellow border to match your theme */
+    background-color: #f9f9f9; /* Light background to contrast with the border */
+    transition: all 0.3s ease; /* Smooth transition on focus */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Focus effect for the search bar */
+.search-bar:focus {
+    outline: none; /* Remove default outline */
+    background-color: #fff; /* White background when focused */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design: Make the search bar full-width on smaller screens */
+@media (max-width: 768px) {
+    .search-bar {
+        color: #333;
+        width: 100%; /* Make the search bar full width on smaller screens */
+        padding: 12px; /* Adjust padding for better spacing on smaller devices */
+    }
+}
+
+.search-bar::placeholder {
+    color: #383838; /* A lighter color for the placeholder */
 }
