@@ -1,0 +1,1490 @@
+ID,Age,Sex,PCL-Score,Disorder,PTSD_Percentile
+1,44,M,30,Panic Disorder,0.41
+2,37,F,45,PTSD,0.52
+3,35,F,33,PTSD,0.65
+4,52,M,5,Panic Disorder,0.12
+5,41,F,4,Generalized Anxiety Disorder,0.44
+6,28,F,10,Social Phobia,0.05
+7,34,M,61,PTSD,0.79
+8,62,F,57,PTSD,0.79
+9,37,F,68,PTSD,0.88
+10,22,F,27,Obsessive-Compulsive Disorder,0.07
+11,41,F,49,PTSD,0.81
+12,37,M,2,Adult Separation Disorder,0.21
+13,46,M,71,PTSD,0.91
+14,50,M,67,PTSD,0.92
+15,85,F,43,PTSD,0.55
+16,19,M,0,Social Phobia,0.49
+17,46,F,28,Specific Phobia,0.17
+18,80,F,45,PTSD,
+19,21,M,15,Panic Disorder,0.27
+20,36,M,15,Obsessive-Compulsive Disorder,0.38
+21,37,F,57,PTSD,0.7
+22,34,F,54,PTSD,0.7
+23,38,F,0,Generalized Anxiety Disorder,0.48
+24,86,M,7,,
+25,0,F,0,Specific Phobia,
+26,56,F,51,PTSD,0.7
+27,19,M,63,PTSD,0.72
+28,43,F,12,Generalized Anxiety Disorder,0.27
+29,42,M,55,PTSD,0.82
+30,85,F,55,PTSD,0.82
+31,28,F,34,PTSD,0.58
+32,43,M,11,Generalized Anxiety Disorder,0.11
+33,26,F,19,Panic Disorder,0.02
+34,57,M,4,Panic Disorder,0.48
+35,28,M,7,Social Phobia,0.06
+36,18,M,24,Panic Disorder,0.15
+37,54,F,49,PTSD,0.8
+38,89,F,32,PTSD,0.6
+39,47,M,72,PTSD,0.96
+40,31,M,25,Panic Disorder,0.19
+41,19,F,33,PTSD,0.61
+42,25,M,32,PTSD,0.52
+43,26,F,42,PTSD,0.62
+44,41,M,55,PTSD,0.74
+45,49,F,33,PTSD,0.61
+46,42,M,4,Panic Disorder,0.44
+47,29,M,46,PTSD,0.59
+48,22,F,55,PTSD,0.68
+49,19,F,27,Panic Disorder,0.02
+50,28,M,0,,
+51,22,F,39,PTSD,0.59
+52,39,F,58,PTSD,0.69
+53,18,F,73,PTSD,0.89
+54,37,F,42,PTSD,0.56
+55,82,,65,PTSD,
+56,43,M,29,Adult Separation Disorder,0.02
+57,31,F,42,PTSD,0.54
+58,72,F,67,,
+59,36,M,70,PTSD,0.92
+60,25,M,19,Obsessive-Compulsive Disorder,0.08
+61,56,F,40,PTSD,0.57
+62,20,M,4,Adult Separation Disorder,0.42
+63,31,F,64,PTSD,1.0
+64,58,F,72,PTSD,0.89
+65,42,M,1,Generalized Anxiety Disorder,0.43
+66,0,M,69,Panic Disorder,
+67,25,M,8,Social Phobia,0.43
+68,35,M,29,Specific Phobia,0.03
+69,86,F,3,Specific Phobia,0.17
+70,45,M,75,PTSD,0.87
+71,25,F,50,PTSD,0.81
+72,31,M,31,Obsessive-Compulsive Disorder,0.49
+73,20,F,2,Generalized Anxiety Disorder,0.35
+74,49,M,17,Panic Disorder,0.09
+75,52,F,77,PTSD,0.94
+76,46,M,11,Social Phobia,0.08
+77,43,M,30,Adult Separation Disorder,0.08
+78,24,M,4,Specific Phobia,0.01
+79,24,M,74,PTSD,0.9
+80,21,F,74,PTSD,0.94
+81,59,F,54,PTSD,0.79
+82,30,F,71,PTSD,0.91
+83,43,F,46,PTSD,0.53
+84,19,F,47,PTSD,0.64
+85,43,M,25,Panic Disorder,0.14
+86,25,M,60,PTSD,0.77
+87,25,M,21,Specific Phobia,0.32
+88,32,M,10,Social Phobia,0.37
+89,53,F,53,PTSD,0.74
+90,48,M,48,PTSD,0.68
+91,49,F,48,PTSD,0.69
+92,35,M,6,Panic Disorder,0.25
+93,26,M,26,Obsessive-Compulsive Disorder,0.39
+94,56,M,75,PTSD,0.91
+95,58,M,57,PTSD,0.83
+96,48,F,68,PTSD,0.9
+97,36,F,20,Adult Separation Disorder,0.28
+98,45,M,69,PTSD,0.9
+99,55,M,51,PTSD,0.8
+100,50,M,15,Social Phobia,0.25
+101,25,M,0,Adult Separation Disorder,0.31
+102,61,M,50,PTSD,0.76
+103,18,F,64,PTSD,0.91
+104,29,F,36,PTSD,0.67
+105,33,M,19,Social Phobia,0.35
+106,21,F,70,PTSD,0.89
+107,37,F,45,PTSD,0.65
+108,21,M,28,Adult Separation Disorder,0.41
+109,41,M,21,Social Phobia,0.17
+110,61,F,74,PTSD,0.86
+111,37,M,6,Adult Separation Disorder,0.27
+112,55,F,46,PTSD,0.54
+113,37,M,23,Obsessive-Compulsive Disorder,0.26
+114,45,F,8,Specific Phobia,0.45
+115,22,M,25,Social Phobia,0.07
+116,26,F,56,PTSD,0.69
+117,20,M,9,Specific Phobia,0.25
+118,27,M,17,Obsessive-Compulsive Disorder,0.18
+119,44,M,18,Adult Separation Disorder,0.08
+120,36,M,27,Panic Disorder,0.45
+121,36,F,49,PTSD,0.76
+122,77,,16,Specific Phobia,
+123,31,F,58,PTSD,0.76
+124,62,F,55,PTSD,0.8
+125,57,M,33,PTSD,0.55
+126,59,F,71,PTSD,0.89
+127,41,F,46,PTSD,0.57
+128,38,M,17,Panic Disorder,0.38
+129,77,M,61,PTSD,0.8
+130,25,F,44,PTSD,0.58
+131,31,F,70,PTSD,0.91
+132,41,F,45,PTSD,0.66
+133,70,F,16,Specific Phobia,0.45
+134,21,F,70,PTSD,0.99
+135,48,F,78,PTSD,0.88
+136,41,M,56,PTSD,0.78
+137,37,M,8,Specific Phobia,0.34
+138,48,M,22,Specific Phobia,0.45
+139,26,M,32,PTSD,0.55
+140,21,M,25,Specific Phobia,0.26
+141,55,M,54,PTSD,0.77
+142,53,M,31,Panic Disorder,0.3
+143,36,M,28,Obsessive-Compulsive Disorder,0.14
+144,27,M,20,Panic Disorder,0.1
+145,21,F,4,Obsessive-Compulsive Disorder,0.39
+146,35,M,35,PTSD,0.66
+147,67,M,46,PTSD,0.65
+148,54,F,28,Adult Separation Disorder,0.12
+149,26,M,12,Specific Phobia,0.46
+150,34,M,0,Panic Disorder,0.22
+151,36,M,5,Social Phobia,0.18
+152,43,M,10,Social Phobia,0.07
+153,38,M,52,PTSD,0.77
+154,57,M,20,Panic Disorder,0.12
+155,25,M,30,Obsessive-Compulsive Disorder,0.32
+156,41,M,74,PTSD,0.96
+157,26,F,80,PTSD,0.9
+158,54,,0,Generalized Anxiety Disorder,
+159,31,F,51,PTSD,0.71
+160,34,F,24,Obsessive-Compulsive Disorder,0.01
+161,37,F,24,Generalized Anxiety Disorder,0.43
+162,18,F,60,PTSD,0.69
+163,26,F,63,PTSD,0.82
+164,52,F,56,PTSD,0.83
+165,55,F,10,Obsessive-Compulsive Disorder,0.09
+166,33,M,67,PTSD,0.94
+167,44,M,41,PTSD,0.58
+168,43,F,76,PTSD,0.9
+169,58,M,30,Obsessive-Compulsive Disorder,0.49
+170,28,M,0,Panic Disorder,0.08
+171,24,F,59,PTSD,0.77
+172,77,F,7,Obsessive-Compulsive Disorder,
+173,58,M,51,PTSD,0.73
+174,59,M,44,PTSD,0.51
+175,73,F,56,PTSD,0.81
+176,33,F,48,PTSD,0.82
+177,53,M,17,Obsessive-Compulsive Disorder,0.37
+178,30,M,72,PTSD,0.98
+179,28,F,25,Social Phobia,0.39
+180,20,F,71,PTSD,0.94
+181,19,M,3,Social Phobia,0.17
+182,54,F,72,PTSD,0.99
+183,30,M,27,Generalized Anxiety Disorder,0.09
+184,30,M,49,PTSD,0.74
+185,52,F,77,PTSD,0.89
+186,80,F,50,PTSD,0.8
+187,0,M,1,,
+188,36,M,27,Specific Phobia,0.05
+189,52,F,42,PTSD,0.52
+190,50,M,13,Generalized Anxiety Disorder,0.31
+191,46,F,62,PTSD,0.79
+192,18,M,78,PTSD,0.99
+193,33,M,25,Generalized Anxiety Disorder,0.28
+194,34,F,70,PTSD,0.86
+195,41,M,3,Social Phobia,0.01
+196,30,F,26,Adult Separation Disorder,0.14
+197,68,F,48,PTSD,0.73
+198,39,M,6,Generalized Anxiety Disorder,0.45
+199,90,F,37,PTSD,0.64
+200,45,F,47,PTSD,0.61
+201,22,M,22,Generalized Anxiety Disorder,0.28
+202,56,F,71,PTSD,0.89
+203,23,M,35,PTSD,0.6
+204,34,M,22,Obsessive-Compulsive Disorder,0.41
+205,43,M,30,Social Phobia,0.43
+206,47,F,75,PTSD,0.97
+207,28,F,45,PTSD,0.61
+208,47,M,37,PTSD,0.51
+209,45,F,36,PTSD,0.55
+210,29,F,23,Specific Phobia,0.09
+211,48,M,30,Generalized Anxiety Disorder,0.2
+212,43,M,25,Social Phobia,0.13
+213,48,F,79,PTSD,0.95
+214,54,M,50,PTSD,0.69
+215,29,M,54,PTSD,0.75
+216,22,M,20,Specific Phobia,0.01
+217,18,M,16,Panic Disorder,0.13
+218,39,F,65,PTSD,0.87
+219,59,F,56,PTSD,0.73
+220,19,M,56,PTSD,0.72
+221,39,F,4,Social Phobia,0.09
+222,25,F,78,PTSD,0.96
+223,29,F,38,PTSD,0.59
+224,42,F,19,Generalized Anxiety Disorder,0.04
+225,57,M,28,Adult Separation Disorder,0.1
+226,34,F,23,Obsessive-Compulsive Disorder,0.44
+227,52,M,29,Generalized Anxiety Disorder,0.25
+228,40,F,6,Panic Disorder,0.42
+229,53,F,67,PTSD,0.89
+230,18,M,17,Social Phobia,0.41
+231,24,M,46,PTSD,0.63
+232,31,M,20,Specific Phobia,0.36
+233,59,M,41,PTSD,0.63
+234,45,F,77,PTSD,0.91
+235,42,M,34,PTSD,0.61
+236,45,F,25,Obsessive-Compulsive Disorder,0.39
+237,0,,0,Panic Disorder,
+238,33,M,20,Panic Disorder,0.04
+239,28,F,57,PTSD,0.8
+240,22,M,2,Social Phobia,0.0
+241,49,M,27,Obsessive-Compulsive Disorder,0.29
+242,34,M,59,PTSD,0.7
+243,46,M,77,PTSD,0.99
+244,34,F,24,Generalized Anxiety Disorder,0.34
+245,50,M,71,PTSD,0.96
+246,19,M,3,Social Phobia,0.39
+247,21,M,28,Adult Separation Disorder,0.16
+248,33,F,24,Adult Separation Disorder,0.34
+249,57,M,71,PTSD,0.99
+250,44,M,60,PTSD,0.82
+251,57,M,20,Obsessive-Compulsive Disorder,0.38
+252,40,M,64,PTSD,0.88
+253,46,F,57,PTSD,0.71
+254,30,F,79,PTSD,0.96
+255,65,F,24,Obsessive-Compulsive Disorder,0.28
+256,0,F,0,Social Phobia,
+257,46,F,29,Adult Separation Disorder,0.03
+258,50,M,8,Panic Disorder,0.35
+259,31,F,79,PTSD,0.85
+260,59,F,52,PTSD,0.76
+261,43,M,4,Generalized Anxiety Disorder,0.38
+262,34,,32,,
+263,32,M,13,Generalized Anxiety Disorder,0.0
+264,57,M,11,Social Phobia,0.07
+265,26,M,58,PTSD,0.75
+266,41,M,74,PTSD,0.97
+267,43,M,40,PTSD,0.64
+268,27,M,18,Adult Separation Disorder,0.14
+269,28,F,45,PTSD,0.62
+270,47,F,62,PTSD,0.8
+271,37,M,68,PTSD,0.86
+272,44,M,38,PTSD,0.56
+273,58,M,58,PTSD,0.78
+274,47,M,53,PTSD,0.7
+275,55,F,12,Adult Separation Disorder,0.25
+276,53,M,10,Social Phobia,0.35
+277,35,M,24,Generalized Anxiety Disorder,0.41
+278,53,F,53,PTSD,0.78
+279,34,M,10,Adult Separation Disorder,0.31
+280,55,M,24,Adult Separation Disorder,0.02
+281,29,F,6,Social Phobia,0.3
+282,35,F,76,PTSD,0.88
+283,52,M,50,PTSD,0.8
+284,25,M,51,PTSD,0.77
+285,23,M,20,Generalized Anxiety Disorder,0.24
+286,27,F,47,PTSD,0.62
+287,41,M,3,Social Phobia,0.32
+288,35,M,76,PTSD,0.91
+289,33,M,18,Obsessive-Compulsive Disorder,0.01
+290,19,F,49,PTSD,0.77
+291,0,F,27,Social Phobia,
+292,37,F,27,Adult Separation Disorder,0.26
+293,33,M,21,Social Phobia,0.33
+294,37,M,55,PTSD,0.79
+295,41,M,24,Adult Separation Disorder,0.06
+296,29,M,9,Generalized Anxiety Disorder,0.41
+297,38,M,22,Panic Disorder,0.31
+298,47,F,59,PTSD,0.8
+299,49,F,42,PTSD,0.54
+300,40,M,29,Specific Phobia,0.32
+301,0,M,26,Specific Phobia,
+302,29,M,5,Specific Phobia,0.15
+303,26,F,30,Adult Separation Disorder,
+304,33,M,30,Obsessive-Compulsive Disorder,0.01
+305,27,M,26,Social Phobia,0.4
+306,32,M,50,PTSD,0.83
+307,35,M,57,PTSD,0.81
+308,46,F,45,PTSD,0.66
+309,40,M,49,PTSD,0.77
+310,49,M,79,PTSD,0.9
+311,58,F,32,PTSD,0.65
+312,47,M,33,PTSD,0.54
+313,0,M,15,Adult Separation Disorder,
+314,37,M,31,Obsessive-Compulsive Disorder,0.42
+315,30,F,76,PTSD,0.88
+316,24,M,15,Panic Disorder,0.03
+317,58,M,80,PTSD,0.94
+318,57,M,40,PTSD,0.64
+319,36,M,26,Obsessive-Compulsive Disorder,0.15
+320,44,F,62,PTSD,0.69
+321,45,F,66,PTSD,0.9
+322,19,F,44,PTSD,0.58
+323,26,M,26,Specific Phobia,0.21
+324,30,F,65,PTSD,0.88
+325,41,F,38,PTSD,0.66
+326,0,F,72,PTSD,
+327,41,M,21,Generalized Anxiety Disorder,0.08
+328,28,M,15,Obsessive-Compulsive Disorder,0.37
+329,52,F,38,PTSD,0.54
+330,66,M,69,PTSD,0.92
+331,42,F,0,Social Phobia,
+332,21,M,56,PTSD,0.74
+333,21,F,54,PTSD,0.76
+334,44,M,11,Generalized Anxiety Disorder,0.1
+335,57,F,62,PTSD,0.78
+336,27,M,41,PTSD,0.51
+337,54,F,46,PTSD,0.65
+338,44,M,66,PTSD,0.98
+339,26,M,10,Specific Phobia,0.42
+340,33,M,5,Adult Separation Disorder,0.19
+341,23,M,0,Generalized Anxiety Disorder,0.28
+342,38,F,36,PTSD,0.65
+343,25,M,16,Social Phobia,0.31
+344,29,M,29,Panic Disorder,0.23
+345,29,M,25,Specific Phobia,0.22
+346,26,F,64,PTSD,0.97
+347,27,F,22,Panic Disorder,0.47
+348,25,M,60,PTSD,0.8
+349,26,M,14,Generalized Anxiety Disorder,0.04
+350,85,F,24,Obsessive-Compulsive Disorder,0.37
+351,25,F,3,Panic Disorder,0.05
+352,46,F,34,PTSD,0.64
+353,46,M,2,Social Phobia,0.04
+354,42,M,3,Generalized Anxiety Disorder,0.02
+355,20,M,42,PTSD,0.53
+356,35,M,75,PTSD,0.91
+357,28,M,31,Specific Phobia,0.3
+358,41,M,15,Social Phobia,0.33
+359,30,F,15,Obsessive-Compulsive Disorder,0.21
+360,57,M,14,Obsessive-Compulsive Disorder,0.04
+361,31,F,19,Social Phobia,0.11
+362,26,F,40,PTSD,0.64
+363,20,F,11,Obsessive-Compulsive Disorder,0.1
+364,27,F,72,PTSD,0.89
+365,20,M,65,PTSD,0.88
+366,54,F,59,PTSD,0.79
+367,33,M,15,Generalized Anxiety Disorder,0.12
+368,44,M,1,Social Phobia,0.07
+369,31,F,2,Panic Disorder,0.27
+370,37,F,14,Social Phobia,0.07
+371,24,M,22,Specific Phobia,0.23
+372,30,M,0,Specific Phobia,
+373,53,F,47,PTSD,0.51
+374,23,M,46,PTSD,0.52
+375,0,,0,,
+376,55,M,0,Specific Phobia,0.41
+377,55,M,10,Panic Disorder,0.06
+378,50,M,21,Panic Disorder,0.47
+379,51,F,7,PTSD,
+380,33,M,80,PTSD,0.96
+381,19,M,15,Social Phobia,0.06
+382,47,M,16,Adult Separation Disorder,0.22
+383,34,M,79,PTSD,0.9
+384,59,F,68,PTSD,0.87
+385,56,F,70,PTSD,0.95
+386,53,F,53,PTSD,0.75
+387,45,F,56,PTSD,0.81
+388,65,F,34,PTSD,0.61
+389,37,F,66,PTSD,0.95
+390,21,F,28,Specific Phobia,0.22
+391,62,M,78,PTSD,1.0
+392,70,F,54,PTSD,0.7
+393,31,F,30,Generalized Anxiety Disorder,0.32
+394,39,M,26,Specific Phobia,0.02
+395,47,M,3,Adult Separation Disorder,0.46
+396,40,M,22,Social Phobia,0.28
+397,35,F,52,PTSD,0.74
+398,26,F,8,Social Phobia,0.36
+399,36,M,79,PTSD,0.97
+400,22,F,32,PTSD,0.6
+401,40,M,5,Adult Separation Disorder,0.41
+402,55,M,61,PTSD,0.79
+403,41,F,63,PTSD,0.71
+404,32,M,11,Specific Phobia,0.18
+405,26,F,53,PTSD,0.72
+406,18,M,24,Generalized Anxiety Disorder,0.28
+407,43,M,18,Social Phobia,0.16
+408,19,F,61,PTSD,0.72
+409,57,F,75,PTSD,0.98
+410,59,M,39,PTSD,0.54
+411,25,F,15,Adult Separation Disorder,0.28
+412,34,F,80,PTSD,0.99
+413,59,M,33,PTSD,0.65
+414,32,F,46,PTSD,0.66
+415,54,M,33,PTSD,0.54
+416,37,M,17,Obsessive-Compulsive Disorder,0.29
+417,58,M,31,Specific Phobia,0.15
+418,25,M,31,Adult Separation Disorder,0.21
+419,33,M,36,PTSD,0.58
+420,31,F,43,PTSD,0.52
+421,0,F,59,Obsessive-Compulsive Disorder,
+422,51,M,63,PTSD,0.71
+423,23,F,54,PTSD,0.75
+424,37,F,52,PTSD,0.78
+425,39,F,37,PTSD,0.62
+426,52,F,49,PTSD,0.77
+427,53,F,22,Generalized Anxiety Disorder,0.4
+428,47,F,64,PTSD,0.91
+429,39,M,74,PTSD,0.87
+430,18,M,45,PTSD,0.55
+431,52,F,9,Generalized Anxiety Disorder,0.22
+432,58,F,63,PTSD,0.68
+433,35,M,10,Adult Separation Disorder,0.3
+434,21,M,49,PTSD,0.72
+435,51,F,52,PTSD,0.78
+436,27,M,75,PTSD,0.93
+437,28,F,22,Adult Separation Disorder,0.14
+438,0,,1,Panic Disorder,
+439,32,F,65,PTSD,0.98
+440,0,F,0,Adult Separation Disorder,
+441,49,M,37,PTSD,0.63
+442,40,M,6,Generalized Anxiety Disorder,0.07
+443,52,M,24,Obsessive-Compulsive Disorder,0.23
+444,21,M,62,PTSD,0.81
+445,27,F,19,Panic Disorder,0.15
+446,56,M,6,Generalized Anxiety Disorder,0.03
+447,50,M,48,PTSD,0.8
+448,51,F,65,PTSD,0.91
+449,21,M,34,PTSD,0.64
+450,29,F,73,PTSD,0.97
+451,18,M,66,PTSD,0.87
+452,86,M,33,PTSD,0.53
+453,39,F,34,PTSD,0.58
+454,32,F,45,PTSD,0.62
+455,20,M,11,Obsessive-Compulsive Disorder,0.05
+456,42,F,38,PTSD,0.54
+457,28,F,12,Obsessive-Compulsive Disorder,0.15
+458,45,F,55,PTSD,0.68
+459,23,F,4,Generalized Anxiety Disorder,0.19
+460,19,F,17,Specific Phobia,0.48
+461,85,M,4,Panic Disorder,0.15
+462,22,F,53,PTSD,0.82
+463,51,M,39,PTSD,0.6
+464,39,F,60,PTSD,0.72
+465,30,F,56,PTSD,0.69
+466,58,M,35,PTSD,0.65
+467,50,M,76,PTSD,0.91
+468,51,F,63,PTSD,0.73
+469,22,M,64,PTSD,0.91
+470,55,F,44,PTSD,0.64
+471,47,F,41,PTSD,0.53
+472,39,M,21,Adult Separation Disorder,0.08
+473,49,F,76,PTSD,0.9
+474,45,M,68,PTSD,0.94
+475,20,M,18,Adult Separation Disorder,0.08
+476,57,M,72,PTSD,0.91
+477,25,F,8,Generalized Anxiety Disorder,0.15
+478,22,M,64,PTSD,0.85
+479,44,M,29,Adult Separation Disorder,0.03
+480,23,M,16,Panic Disorder,0.11
+481,19,M,30,Panic Disorder,0.3
+482,43,M,73,PTSD,1.0
+483,50,M,57,PTSD,0.78
+484,21,F,16,Obsessive-Compulsive Disorder,0.1
+485,51,F,54,PTSD,0.74
+486,25,F,8,Specific Phobia,0.36
+487,49,F,51,PTSD,0.76
+488,50,M,76,PTSD,0.88
+489,29,M,55,PTSD,0.73
+490,64,M,16,Obsessive-Compulsive Disorder,0.13
+491,46,M,65,PTSD,0.96
+492,58,F,67,PTSD,0.87
+493,32,M,46,PTSD,0.52
+494,25,M,16,Obsessive-Compulsive Disorder,0.13
+495,28,F,53,PTSD,0.76
+496,40,F,9,Obsessive-Compulsive Disorder,0.09
+497,53,M,5,Adult Separation Disorder,0.17
+498,53,M,30,Panic Disorder,0.18
+499,30,M,50,PTSD,0.68
+500,44,M,60,PTSD,0.76
+501,49,M,69,PTSD,0.85
+502,57,F,75,PTSD,0.96
+503,0,,0,Social Phobia,
+504,58,F,63,PTSD,0.72
+505,27,M,71,PTSD,0.85
+506,50,M,75,PTSD,0.98
+507,28,M,21,Adult Separation Disorder,0.32
+508,28,M,7,Social Phobia,0.14
+509,52,F,67,PTSD,0.85
+510,56,F,36,PTSD,0.64
+511,37,M,29,Specific Phobia,0.22
+512,18,M,37,PTSD,0.63
+513,40,M,46,PTSD,0.55
+514,23,F,18,Panic Disorder,0.24
+515,53,M,56,PTSD,0.69
+516,43,M,29,Adult Separation Disorder,0.0
+517,56,F,61,PTSD,0.71
+518,45,F,63,PTSD,0.82
+519,47,M,66,PTSD,0.87
+520,54,F,14,Obsessive-Compulsive Disorder,0.48
+521,77,M,40,PTSD,0.54
+522,51,M,11,Social Phobia,0.1
+523,34,F,34,PTSD,0.6
+524,58,F,43,PTSD,0.66
+525,34,M,27,Specific Phobia,0.03
+526,28,F,36,PTSD,0.61
+527,47,M,19,Adult Separation Disorder,0.04
+528,39,M,23,Social Phobia,0.07
+529,43,M,12,Generalized Anxiety Disorder,0.26
+530,48,M,64,PTSD,0.92
+531,44,M,14,Specific Phobia,0.07
+532,53,F,7,Social Phobia,0.1
+533,35,M,19,Generalized Anxiety Disorder,0.21
+534,34,F,39,PTSD,0.54
+535,21,M,7,Adult Separation Disorder,0.37
+536,54,F,50,PTSD,0.79
+537,34,M,80,PTSD,0.93
+538,52,F,63,PTSD,0.69
+539,41,M,18,Social Phobia,0.46
+540,56,M,40,PTSD,0.55
+541,18,M,0,Panic Disorder,0.44
+542,45,F,71,PTSD,0.85
+543,32,M,40,PTSD,0.63
+544,36,F,53,PTSD,0.75
+545,44,F,79,,
+546,42,M,16,Generalized Anxiety Disorder,0.09
+547,21,M,4,Generalized Anxiety Disorder,0.1
+548,35,M,27,Specific Phobia,0.23
+549,32,F,58,PTSD,0.81
+550,44,F,52,PTSD,0.77
+551,58,M,12,Adult Separation Disorder,0.1
+552,30,M,10,Social Phobia,0.32
+553,20,F,69,PTSD,0.96
+554,26,M,34,PTSD,0.55
+555,44,F,79,PTSD,0.87
+556,41,M,21,Panic Disorder,0.11
+557,51,F,2,Specific Phobia,0.22
+558,40,,69,Panic Disorder,
+559,24,M,75,PTSD,0.9
+560,58,F,61,PTSD,0.78
+561,45,F,49,PTSD,0.83
+562,18,M,2,Specific Phobia,0.11
+563,62,M,77,PTSD,0.85
+564,48,F,55,PTSD,0.68
+565,26,M,69,PTSD,0.88
+566,38,M,30,Specific Phobia,0.25
+567,27,M,20,Panic Disorder,0.4
+568,22,M,57,PTSD,0.69
+569,27,M,2,Social Phobia,0.19
+570,30,M,57,PTSD,0.76
+571,43,F,60,PTSD,0.71
+572,32,F,46,PTSD,0.59
+573,36,M,16,Generalized Anxiety Disorder,0.05
+574,81,F,70,PTSD,0.88
+575,59,M,54,PTSD,0.77
+576,30,M,6,Specific Phobia,0.3
+577,44,M,27,Obsessive-Compulsive Disorder,0.11
+578,38,M,8,Panic Disorder,0.24
+579,46,F,49,PTSD,0.77
+580,53,F,47,PTSD,0.51
+581,57,M,13,Generalized Anxiety Disorder,0.16
+582,29,F,79,PTSD,0.86
+583,30,M,5,Obsessive-Compulsive Disorder,0.34
+584,52,F,64,PTSD,0.87
+585,38,F,56,PTSD,0.76
+586,19,F,67,PTSD,0.94
+587,38,F,27,Panic Disorder,0.11
+588,52,F,59,PTSD,0.83
+589,36,M,1,Adult Separation Disorder,0.16
+590,25,F,68,PTSD,0.87
+591,58,F,61,PTSD,0.82
+592,44,F,74,PTSD,0.89
+593,22,M,73,PTSD,0.91
+594,31,F,0,Panic Disorder,0.44
+595,51,M,4,Specific Phobia,0.13
+596,30,M,27,Generalized Anxiety Disorder,0.28
+597,56,F,17,Panic Disorder,0.22
+598,25,F,17,Adult Separation Disorder,0.41
+599,46,F,48,PTSD,0.79
+600,0,,0,Social Phobia,
+601,66,M,24,Social Phobia,0.08
+602,33,M,18,Generalized Anxiety Disorder,0.43
+603,40,M,37,PTSD,0.66
+604,42,F,53,PTSD,0.69
+605,59,F,73,PTSD,0.99
+606,38,F,61,PTSD,0.76
+607,52,F,20,Generalized Anxiety Disorder,0.21
+608,47,M,27,Obsessive-Compulsive Disorder,0.15
+609,35,M,52,PTSD,0.71
+610,54,F,49,PTSD,0.72
+611,51,F,51,PTSD,0.81
+612,52,F,31,Generalized Anxiety Disorder,0.26
+613,56,F,29,Generalized Anxiety Disorder,0.33
+614,19,M,15,Adult Separation Disorder,0.31
+615,44,F,3,Specific Phobia,0.32
+616,41,F,71,PTSD,0.98
+617,52,M,62,PTSD,0.72
+618,25,F,15,Generalized Anxiety Disorder,0.4
+619,27,M,10,Social Phobia,0.17
+620,53,M,40,PTSD,0.57
+621,22,F,35,PTSD,0.64
+622,40,M,45,PTSD,0.61
+623,50,F,59,PTSD,0.69
+624,44,M,10,Generalized Anxiety Disorder,0.3
+625,28,M,60,PTSD,0.72
+626,44,M,16,Generalized Anxiety Disorder,0.17
+627,79,M,77,PTSD,0.95
+628,53,F,38,PTSD,0.59
+629,64,M,59,PTSD,0.77
+630,55,M,27,Social Phobia,0.3
+631,20,F,45,PTSD,0.64
+632,20,M,10,Adult Separation Disorder,0.3
+633,24,M,3,Adult Separation Disorder,0.0
+634,80,M,7,Generalized Anxiety Disorder,0.07
+635,50,F,4,Social Phobia,0.2
+636,24,M,7,Generalized Anxiety Disorder,0.41
+637,56,M,67,PTSD,1.0
+638,24,M,24,Social Phobia,0.26
+639,43,M,5,Social Phobia,0.26
+640,35,F,8,Adult Separation Disorder,0.4
+641,43,F,46,PTSD,0.62
+642,55,M,60,PTSD,0.82
+643,43,M,77,PTSD,0.89
+644,52,M,72,PTSD,0.98
+645,26,F,67,PTSD,0.96
+646,27,F,70,PTSD,0.96
+647,41,F,62,PTSD,0.77
+648,59,M,71,PTSD,0.99
+649,21,M,23,Adult Separation Disorder,0.41
+650,24,M,60,,
+651,24,M,50,PTSD,0.76
+652,46,M,31,Panic Disorder,0.49
+653,21,F,72,PTSD,0.89
+654,56,M,27,Generalized Anxiety Disorder,0.21
+655,38,F,20,Adult Separation Disorder,0.12
+656,52,M,32,PTSD,0.62
+657,49,M,67,PTSD,0.91
+658,37,M,26,Panic Disorder,0.09
+659,45,M,1,Panic Disorder,0.26
+660,49,M,72,PTSD,0.85
+661,28,F,16,Social Phobia,0.33
+662,38,F,75,PTSD,0.89
+663,24,F,66,PTSD,0.89
+664,31,F,51,PTSD,0.83
+665,51,F,61,PTSD,0.79
+666,25,F,80,PTSD,0.99
+667,20,F,52,PTSD,0.8
+668,31,M,65,PTSD,0.93
+669,27,F,46,PTSD,0.53
+670,41,M,6,Adult Separation Disorder,0.48
+671,27,M,50,PTSD,0.74
+672,24,F,52,PTSD,0.77
+673,24,M,13,Social Phobia,0.48
+674,71,F,77,PTSD,0.95
+675,18,F,37,PTSD,0.62
+676,60,,17,Social Phobia,
+677,59,M,48,PTSD,0.7
+678,19,F,77,PTSD,0.93
+679,28,M,15,Generalized Anxiety Disorder,0.27
+680,59,F,35,PTSD,0.53
+681,0,,16,Generalized Anxiety Disorder,
+682,79,M,53,PTSD,0.83
+683,30,M,31,Social Phobia,0.03
+684,32,M,14,Specific Phobia,0.37
+685,49,F,38,PTSD,0.61
+686,22,M,20,Generalized Anxiety Disorder,0.48
+687,47,F,57,PTSD,0.73
+688,50,F,73,PTSD,0.9
+689,26,F,23,Social Phobia,0.42
+690,0,M,3,Adult Separation Disorder,
+691,21,F,2,Obsessive-Compulsive Disorder,0.23
+692,22,F,26,Generalized Anxiety Disorder,0.08
+693,25,F,35,PTSD,0.66
+694,30,F,18,Generalized Anxiety Disorder,0.07
+695,19,F,52,PTSD,0.7
+696,46,M,44,PTSD,0.59
+697,76,,26,,
+698,19,M,36,PTSD,0.51
+699,39,F,43,PTSD,0.63
+700,46,M,55,PTSD,0.7
+701,33,M,66,PTSD,0.88
+702,52,F,37,PTSD,0.59
+703,75,M,24,Social Phobia,0.15
+704,46,F,8,Obsessive-Compulsive Disorder,0.5
+705,21,M,35,PTSD,0.66
+706,57,M,41,Panic Disorder,
+707,26,F,53,PTSD,0.76
+708,24,F,72,PTSD,0.9
+709,47,F,10,Generalized Anxiety Disorder,0.19
+710,28,M,61,PTSD,0.69
+711,32,M,15,Obsessive-Compulsive Disorder,0.04
+712,29,F,35,PTSD,0.63
+713,46,F,63,PTSD,0.77
+714,44,M,30,Panic Disorder,0.15
+715,26,F,15,Panic Disorder,0.13
+716,24,M,6,Generalized Anxiety Disorder,0.16
+717,82,F,38,PTSD,0.52
+718,20,M,39,PTSD,0.59
+719,28,M,79,PTSD,0.99
+720,43,M,12,Panic Disorder,0.13
+721,26,F,41,PTSD,0.57
+722,23,M,30,Panic Disorder,0.21
+723,22,F,60,PTSD,0.72
+724,50,F,43,PTSD,0.57
+725,56,M,8,Generalized Anxiety Disorder,0.08
+726,59,F,65,PTSD,0.96
+727,20,M,66,PTSD,0.87
+728,38,F,69,PTSD,0.95
+729,41,F,58,PTSD,0.78
+730,45,F,64,PTSD,0.95
+731,67,F,67,PTSD,0.89
+732,31,F,57,PTSD,0.79
+733,28,F,62,PTSD,0.7
+734,45,F,19,Panic Disorder,0.1
+735,34,M,30,Panic Disorder,0.11
+736,45,M,15,Social Phobia,
+737,19,F,50,PTSD,0.82
+738,59,F,67,PTSD,0.99
+739,27,F,45,PTSD,0.59
+740,21,M,6,Generalized Anxiety Disorder,0.37
+741,20,M,24,Panic Disorder,0.36
+742,33,M,1,Generalized Anxiety Disorder,0.15
+743,30,F,37,PTSD,0.57
+744,24,M,25,Specific Phobia,0.24
+745,30,M,2,Panic Disorder,0.23
+746,66,F,77,PTSD,0.94
+747,34,M,37,PTSD,0.54
+748,37,F,80,PTSD,0.87
+749,19,M,21,Panic Disorder,0.12
+750,41,F,74,PTSD,0.88
+751,35,F,56,PTSD,0.74
+752,26,F,50,PTSD,0.73
+753,20,M,28,Social Phobia,0.45
+754,51,M,40,PTSD,0.58
+755,42,F,67,PTSD,0.86
+756,46,M,7,Specific Phobia,0.03
+757,50,M,30,Generalized Anxiety Disorder,0.09
+758,20,F,35,PTSD,0.64
+759,21,F,54,PTSD,0.79
+760,18,F,5,Social Phobia,0.28
+761,18,F,75,PTSD,0.92
+762,40,M,2,Social Phobia,0.25
+763,58,F,64,PTSD,0.87
+764,59,F,73,PTSD,0.89
+765,55,M,59,PTSD,0.78
+766,28,F,26,Panic Disorder,0.01
+767,34,M,13,Adult Separation Disorder,0.25
+768,32,F,19,Adult Separation Disorder,0.38
+769,79,M,29,Generalized Anxiety Disorder,0.23
+770,24,F,38,PTSD,0.54
+771,24,F,41,PTSD,0.65
+772,25,F,29,Obsessive-Compulsive Disorder,0.22
+773,21,F,38,PTSD,0.55
+774,56,F,77,PTSD,0.95
+775,32,M,4,Generalized Anxiety Disorder,0.18
+776,54,M,36,PTSD,0.62
+777,46,F,1,Panic Disorder,0.37
+778,24,F,17,Social Phobia,0.11
+779,53,F,79,PTSD,0.95
+780,87,M,70,PTSD,1.0
+781,48,M,73,PTSD,0.91
+782,35,M,15,Obsessive-Compulsive Disorder,0.23
+783,32,F,24,Obsessive-Compulsive Disorder,0.38
+784,41,M,23,Generalized Anxiety Disorder,0.23
+785,40,M,57,PTSD,0.83
+786,39,F,4,Obsessive-Compulsive Disorder,0.16
+787,35,F,7,Generalized Anxiety Disorder,0.32
+788,26,M,10,Panic Disorder,0.23
+789,22,F,49,PTSD,0.71
+790,57,M,78,PTSD,0.91
+791,44,M,0,Specific Phobia,0.08
+792,54,M,42,PTSD,0.56
+793,38,M,30,Adult Separation Disorder,0.02
+794,18,F,33,PTSD,0.55
+795,31,F,38,PTSD,0.64
+796,69,M,43,PTSD,0.67
+797,28,M,23,Adult Separation Disorder,0.26
+798,44,F,76,PTSD,0.91
+799,27,M,51,PTSD,0.7
+800,23,M,76,PTSD,0.96
+801,46,M,45,PTSD,0.56
+802,31,M,68,PTSD,0.92
+803,31,M,12,Obsessive-Compulsive Disorder,0.18
+804,26,F,55,PTSD,0.78
+805,48,F,30,Social Phobia,0.37
+806,36,F,69,PTSD,0.93
+807,59,M,56,Social Phobia,
+808,22,M,14,Adult Separation Disorder,0.32
+809,28,F,70,PTSD,0.87
+810,45,F,66,PTSD,0.87
+811,59,M,54,PTSD,0.73
+812,31,F,67,PTSD,0.86
+813,55,F,61,PTSD,0.81
+814,37,M,42,PTSD,0.6
+815,41,M,15,Social Phobia,0.34
+816,46,M,7,Social Phobia,0.05
+817,49,F,60,PTSD,0.82
+818,33,F,13,Specific Phobia,0.24
+819,43,F,27,Social Phobia,0.35
+820,52,F,71,PTSD,0.88
+821,49,M,62,PTSD,0.75
+822,19,M,3,Panic Disorder,0.18
+823,23,M,64,PTSD,1.0
+824,54,F,33,PTSD,0.52
+825,19,M,17,Panic Disorder,0.13
+826,89,F,67,PTSD,0.98
+827,32,M,0,Specific Phobia,0.49
+828,86,F,70,PTSD,0.92
+829,59,F,37,PTSD,0.66
+830,22,M,39,PTSD,0.61
+831,0,M,74,Generalized Anxiety Disorder,
+832,50,M,57,PTSD,0.76
+833,22,M,2,Panic Disorder,0.19
+834,29,F,0,Specific Phobia,0.0
+835,39,M,6,Social Phobia,0.16
+836,18,F,19,Social Phobia,0.39
+837,35,,65,,
+838,28,F,80,PTSD,0.85
+839,45,F,31,Generalized Anxiety Disorder,0.4
+840,55,M,45,PTSD,0.64
+841,48,M,13,Obsessive-Compulsive Disorder,0.34
+842,37,M,74,PTSD,0.95
+843,60,M,57,PTSD,0.72
+844,43,M,28,Panic Disorder,0.25
+845,30,F,54,PTSD,0.74
+846,20,F,14,Social Phobia,0.02
+847,49,M,23,Panic Disorder,0.39
+848,46,M,31,Adult Separation Disorder,0.29
+849,36,F,67,PTSD,0.99
+850,46,M,2,Social Phobia,0.41
+851,43,M,68,PTSD,0.85
+852,20,M,49,PTSD,0.76
+853,30,M,28,Panic Disorder,0.45
+854,20,M,72,PTSD,0.97
+855,56,F,35,PTSD,0.66
+856,26,M,69,,
+857,19,M,0,,
+858,81,F,9,Panic Disorder,0.24
+859,32,M,0,Generalized Anxiety Disorder,0.08
+860,58,F,68,PTSD,0.94
+861,47,F,42,PTSD,0.6
+862,58,F,2,Obsessive-Compulsive Disorder,0.08
+863,34,F,66,PTSD,0.92
+864,53,M,21,Generalized Anxiety Disorder,0.35
+865,34,F,78,PTSD,0.94
+866,27,M,2,Generalized Anxiety Disorder,0.24
+867,26,F,19,Generalized Anxiety Disorder,0.4
+868,21,M,58,PTSD,0.7
+869,25,F,33,PTSD,0.61
+870,21,M,69,PTSD,0.91
+871,25,M,19,Specific Phobia,0.03
+872,58,M,14,Specific Phobia,0.28
+873,58,F,17,Adult Separation Disorder,0.29
+874,55,M,46,PTSD,0.58
+875,58,F,2,Social Phobia,0.04
+876,49,F,50,PTSD,0.83
+877,43,F,13,Obsessive-Compulsive Disorder,0.15
+878,28,M,64,PTSD,0.89
+879,31,M,0,Specific Phobia,0.46
+880,29,M,2,Specific Phobia,0.36
+881,36,M,60,PTSD,0.78
+882,54,M,9,Obsessive-Compulsive Disorder,0.49
+883,58,F,40,PTSD,0.64
+884,36,M,7,Generalized Anxiety Disorder,0.04
+885,53,F,34,PTSD,0.64
+886,34,M,9,Specific Phobia,0.36
+887,36,M,66,PTSD,0.89
+888,44,M,34,PTSD,0.61
+889,26,F,64,PTSD,0.96
+890,38,M,77,PTSD,0.85
+891,24,M,28,Panic Disorder,0.03
+892,47,M,31,Adult Separation Disorder,0.02
+893,50,F,70,PTSD,0.87
+894,59,M,26,Specific Phobia,0.21
+895,28,F,47,PTSD,0.58
+896,58,M,77,PTSD,0.94
+897,41,M,21,Adult Separation Disorder,0.16
+898,22,F,24,Generalized Anxiety Disorder,0.27
+899,39,M,29,Adult Separation Disorder,0.39
+900,22,M,36,PTSD,0.63
+901,50,F,64,PTSD,0.98
+902,25,F,54,PTSD,0.71
+903,21,M,10,Generalized Anxiety Disorder,0.02
+904,58,F,34,PTSD,0.51
+905,36,M,26,Panic Disorder,0.05
+906,52,M,49,PTSD,0.78
+907,20,F,54,PTSD,0.81
+908,47,M,65,PTSD,
+909,19,M,44,PTSD,0.65
+910,35,F,7,Panic Disorder,0.36
+911,52,M,28,Generalized Anxiety Disorder,0.34
+912,83,M,48,PTSD,0.82
+913,40,M,49,PTSD,0.81
+914,38,F,78,PTSD,0.94
+915,24,F,41,PTSD,0.62
+916,19,F,15,Specific Phobia,0.21
+917,28,F,51,PTSD,0.73
+918,42,F,37,PTSD,0.59
+919,26,M,10,Adult Separation Disorder,0.49
+920,40,F,62,PTSD,0.7
+921,0,M,0,Generalized Anxiety Disorder,
+922,44,M,11,Generalized Anxiety Disorder,0.25
+923,51,F,34,PTSD,0.56
+924,56,M,3,Social Phobia,0.04
+925,45,M,13,Adult Separation Disorder,0.07
+926,30,M,70,PTSD,0.94
+927,50,F,36,PTSD,0.57
+928,45,M,3,Generalized Anxiety Disorder,0.23
+929,30,F,56,PTSD,0.68
+930,37,M,63,PTSD,0.79
+931,18,M,65,PTSD,0.91
+932,21,F,76,PTSD,0.93
+933,52,F,40,PTSD,0.54
+934,24,M,43,PTSD,0.58
+935,33,F,2,Specific Phobia,0.11
+936,47,M,26,Generalized Anxiety Disorder,0.36
+937,20,M,23,Specific Phobia,0.21
+938,27,M,41,PTSD,0.64
+939,28,M,45,PTSD,0.52
+940,59,M,79,PTSD,1.0
+941,23,M,35,PTSD,0.58
+942,45,F,40,PTSD,0.62
+943,20,M,13,Generalized Anxiety Disorder,0.21
+944,21,M,18,Generalized Anxiety Disorder,0.1
+945,47,F,13,Generalized Anxiety Disorder,0.25
+946,55,F,38,PTSD,0.51
+947,19,F,45,PTSD,0.62
+948,30,M,5,Specific Phobia,0.44
+949,56,F,51,PTSD,0.78
+950,68,F,32,PTSD,0.59
+951,55,M,44,PTSD,0.55
+952,29,M,31,Specific Phobia,0.28
+953,40,F,73,PTSD,0.94
+954,65,F,72,PTSD,0.9
+955,24,M,63,PTSD,0.7
+956,23,M,69,PTSD,0.86
+957,26,F,56,PTSD,0.76
+958,28,M,13,Obsessive-Compulsive Disorder,0.21
+959,24,M,60,PTSD,0.82
+960,32,M,4,Obsessive-Compulsive Disorder,0.12
+961,26,M,0,Generalized Anxiety Disorder,0.42
+962,20,M,46,PTSD,0.52
+963,19,F,73,PTSD,0.98
+964,52,M,63,PTSD,0.74
+965,20,F,58,PTSD,0.78
+966,25,F,76,PTSD,0.93
+967,55,F,50,PTSD,0.81
+968,57,M,9,Generalized Anxiety Disorder,0.04
+969,30,M,1,Adult Separation Disorder,0.07
+970,19,M,9,Adult Separation Disorder,
+971,46,F,68,PTSD,0.95
+972,58,F,71,PTSD,0.89
+973,43,F,31,Social Phobia,0.25
+974,49,M,7,Social Phobia,0.49
+975,29,F,65,PTSD,0.85
+976,59,M,27,Adult Separation Disorder,0.25
+977,48,,0,Panic Disorder,
+978,27,F,44,PTSD,0.59
+979,23,F,7,Specific Phobia,0.35
+980,36,M,16,Generalized Anxiety Disorder,0.31
+981,32,M,75,PTSD,0.92
+982,57,F,42,PTSD,0.57
+983,35,M,10,Obsessive-Compulsive Disorder,0.03
+984,37,F,20,Generalized Anxiety Disorder,0.23
+985,38,M,36,PTSD,0.62
+986,66,F,76,PTSD,0.94
+987,49,M,61,PTSD,0.72
+988,42,M,16,Panic Disorder,0.4
+989,45,F,70,PTSD,0.88
+990,42,F,69,PTSD,0.98
+991,18,F,35,PTSD,0.52
+992,56,M,5,Generalized Anxiety Disorder,0.12
+993,43,F,76,PTSD,0.95
+994,59,F,70,PTSD,0.86
+995,31,M,35,PTSD,0.65
+996,50,M,64,PTSD,0.85
+997,29,M,39,PTSD,0.51
+998,22,F,69,PTSD,0.86
+999,26,M,22,Panic Disorder,0.22
+1000,36,F,8,Social Phobia,0.06
+1001,31,F,48,PTSD,0.68
+1002,30,F,70,PTSD,0.86
+1003,18,F,20,Generalized Anxiety Disorder,0.26
+1004,48,F,49,PTSD,0.72
+1005,18,F,47,PTSD,0.55
+1006,24,M,29,Obsessive-Compulsive Disorder,0.16
+1007,43,F,40,PTSD,0.54
+1008,35,F,13,Obsessive-Compulsive Disorder,0.11
+1009,35,F,15,Obsessive-Compulsive Disorder,0.23
+1010,34,F,10,Specific Phobia,0.11
+1011,24,M,1,Adult Separation Disorder,
+1012,43,F,41,PTSD,0.54
+1013,37,F,16,Panic Disorder,0.39
+1014,50,M,55,PTSD,0.77
+1015,36,M,72,PTSD,0.88
+1016,27,M,8,Generalized Anxiety Disorder,0.01
+1017,21,F,78,PTSD,0.94
+1018,85,F,77,PTSD,0.91
+1019,22,M,44,PTSD,0.57
+1020,50,M,32,PTSD,0.55
+1021,29,F,25,Specific Phobia,0.26
+1022,24,M,13,Specific Phobia,0.4
+1023,25,M,32,PTSD,0.55
+1024,41,F,52,,
+1025,50,M,12,Panic Disorder,0.29
+1026,75,F,72,PTSD,0.93
+1027,22,M,45,PTSD,0.55
+1028,48,M,3,Adult Separation Disorder,0.36
+1029,49,F,71,PTSD,0.85
+1030,59,M,40,PTSD,0.51
+1031,89,F,49,PTSD,0.79
+1032,31,M,30,Social Phobia,0.44
+1033,66,F,65,PTSD,0.9
+1034,30,M,60,PTSD,0.68
+1035,75,M,12,Specific Phobia,0.38
+1036,49,M,74,PTSD,0.86
+1037,28,F,62,PTSD,0.76
+1038,44,M,56,PTSD,0.78
+1039,30,M,30,Generalized Anxiety Disorder,0.49
+1040,42,M,14,Obsessive-Compulsive Disorder,0.24
+1041,58,F,58,PTSD,0.82
+1042,29,F,57,Adult Separation Disorder,
+1043,25,F,42,PTSD,0.59
+1044,29,M,16,Generalized Anxiety Disorder,0.02
+1045,36,M,20,Generalized Anxiety Disorder,0.25
+1046,62,M,0,Adult Separation Disorder,
+1047,82,F,57,PTSD,0.7
+1048,58,F,43,PTSD,0.64
+1049,21,F,79,PTSD,0.99
+1050,40,M,63,PTSD,0.73
+1051,34,F,45,PTSD,0.52
+1052,58,M,61,PTSD,0.73
+1053,47,M,6,Generalized Anxiety Disorder,0.09
+1054,36,M,6,Generalized Anxiety Disorder,0.32
+1055,59,M,38,PTSD,0.5
+1056,40,M,9,Social Phobia,0.19
+1057,27,M,66,PTSD,0.91
+1058,19,F,0,Adult Separation Disorder,0.15
+1059,34,M,15,Social Phobia,0.01
+1060,33,F,65,PTSD,0.91
+1061,35,F,63,PTSD,0.82
+1062,29,F,1,Social Phobia,0.32
+1063,33,F,13,Social Phobia,0.11
+1064,54,F,40,PTSD,0.6
+1065,19,M,26,Specific Phobia,0.36
+1066,90,M,64,PTSD,0.91
+1067,46,M,12,Generalized Anxiety Disorder,0.13
+1068,63,F,54,PTSD,0.83
+1069,22,F,0,,
+1070,52,F,35,PTSD,0.6
+1071,22,F,67,PTSD,0.97
+1072,35,M,65,PTSD,0.93
+1073,30,M,8,Panic Disorder,0.36
+1074,35,F,56,PTSD,0.78
+1075,45,F,66,PTSD,0.92
+1076,55,F,76,PTSD,0.88
+1077,23,M,57,PTSD,0.78
+1078,20,F,17,Social Phobia,0.46
+1079,83,F,24,Obsessive-Compulsive Disorder,0.28
+1080,35,M,17,Social Phobia,0.43
+1081,46,M,0,,
+1082,20,F,55,PTSD,0.82
+1083,27,M,15,Obsessive-Compulsive Disorder,0.34
+1084,30,M,22,Obsessive-Compulsive Disorder,0.44
+1085,48,M,61,PTSD,0.73
+1086,49,M,18,Panic Disorder,0.37
+1087,27,M,73,PTSD,0.88
+1088,21,F,23,Obsessive-Compulsive Disorder,0.4
+1089,65,,30,,
+1090,38,F,20,Social Phobia,0.19
+1091,45,F,57,PTSD,0.73
+1092,54,M,61,PTSD,0.79
+1093,38,M,0,Social Phobia,0.36
+1094,52,F,75,PTSD,0.87
+1095,54,F,59,PTSD,0.8
+1096,18,F,24,Adult Separation Disorder,0.01
+1097,48,F,33,PTSD,0.64
+1098,52,M,73,PTSD,0.93
+1099,44,M,19,Obsessive-Compulsive Disorder,0.19
+1100,24,M,12,Specific Phobia,0.09
+1101,87,F,0,Adult Separation Disorder,0.03
+1102,24,F,60,PTSD,0.75
+1103,81,F,68,PTSD,0.87
+1104,53,F,9,Social Phobia,0.26
+1105,22,M,17,Panic Disorder,0.28
+1106,19,F,62,PTSD,0.71
+1107,51,M,41,PTSD,0.62
+1108,49,M,70,PTSD,0.85
+1109,34,M,77,PTSD,0.86
+1110,37,F,64,PTSD,0.86
+1111,55,M,37,PTSD,0.64
+1112,23,M,5,Adult Separation Disorder,0.36
+1113,43,M,6,Adult Separation Disorder,0.36
+1114,51,M,26,Panic Disorder,0.21
+1115,22,F,69,PTSD,0.89
+1116,35,F,20,Generalized Anxiety Disorder,0.41
+1117,36,M,22,Panic Disorder,0.29
+1118,56,F,0,Specific Phobia,0.46
+1119,82,M,36,PTSD,0.58
+1120,27,F,71,PTSD,0.93
+1121,22,M,21,Obsessive-Compulsive Disorder,0.42
+1122,59,M,13,Panic Disorder,0.42
+1123,42,F,65,PTSD,0.89
+1124,33,M,21,Obsessive-Compulsive Disorder,0.07
+1125,31,M,24,Obsessive-Compulsive Disorder,0.15
+1126,55,F,65,PTSD,0.92
+1127,20,M,18,Panic Disorder,0.4
+1128,58,M,28,Panic Disorder,0.31
+1129,44,M,26,Panic Disorder,0.27
+1130,53,M,27,Specific Phobia,0.43
+1131,38,F,57,PTSD,0.78
+1132,28,M,17,Social Phobia,0.16
+1133,34,F,53,PTSD,0.71
+1134,24,M,65,PTSD,0.89
+1135,46,F,49,PTSD,0.76
+1136,28,F,34,PTSD,0.63
+1137,34,M,28,Social Phobia,0.45
+1138,49,M,60,PTSD,0.81
+1139,47,M,31,Obsessive-Compulsive Disorder,0.17
+1140,31,F,20,Social Phobia,0.11
+1141,57,F,68,PTSD,0.9
+1142,36,M,16,Adult Separation Disorder,0.38
+1143,45,M,76,PTSD,0.91
+1144,33,M,55,PTSD,0.74
+1145,59,F,43,PTSD,0.51
+1146,44,F,56,PTSD,0.71
+1147,27,F,75,PTSD,0.96
+1148,54,M,44,PTSD,0.5
+1149,29,F,64,PTSD,0.92
+1150,58,F,33,PTSD,0.52
+1151,33,M,17,Specific Phobia,0.37
+1152,23,M,15,Social Phobia,0.47
+1153,44,M,63,PTSD,0.79
+1154,35,M,0,Specific Phobia,0.15
+1155,59,F,36,PTSD,0.56
+1156,79,F,62,PTSD,0.79
+1157,38,M,11,Panic Disorder,0.11
+1158,44,F,72,PTSD,0.85
+1159,23,F,2,Obsessive-Compulsive Disorder,0.33
+1160,67,M,56,PTSD,0.76
+1161,55,F,70,PTSD,0.97
+1162,25,M,79,PTSD,0.92
+1163,21,M,51,PTSD,0.74
+1164,19,M,8,Adult Separation Disorder,0.29
+1165,47,M,69,PTSD,0.97
+1166,45,M,35,PTSD,0.61
+1167,47,F,55,PTSD,0.74
+1168,37,M,19,Adult Separation Disorder,0.0
+1169,20,F,74,PTSD,0.88
+1170,23,F,54,PTSD,0.72
+1171,21,M,11,Obsessive-Compulsive Disorder,0.32
+1172,47,M,25,Social Phobia,0.41
+1173,0,,0,Panic Disorder,
+1174,25,M,41,PTSD,0.66
+1175,52,M,15,Specific Phobia,0.19
+1176,22,M,10,Social Phobia,0.4
+1177,76,F,49,Generalized Anxiety Disorder,
+1178,32,F,19,Specific Phobia,0.26
+1179,52,F,57,PTSD,0.79
+1180,21,M,32,PTSD,0.58
+1181,40,F,44,PTSD,0.58
+1182,50,F,43,PTSD,0.52
+1183,57,F,24,Panic Disorder,0.14
+1184,18,M,9,Panic Disorder,0.35
+1185,38,M,0,Obsessive-Compulsive Disorder,0.32
+1186,55,F,39,PTSD,0.51
+1187,41,M,5,Obsessive-Compulsive Disorder,0.45
+1188,58,F,70,PTSD,0.88
+1189,24,M,65,PTSD,0.92
+1190,23,F,67,PTSD,0.86
+1191,30,M,15,Generalized Anxiety Disorder,0.46
+1192,52,F,56,PTSD,0.72
+1193,55,M,38,PTSD,0.55
+1194,38,M,21,Social Phobia,0.28
+1195,34,M,18,Panic Disorder,0.49
+1196,20,M,15,Social Phobia,0.05
+1197,22,F,11,Social Phobia,0.35
+1198,45,F,11,Panic Disorder,0.31
+1199,30,F,34,PTSD,0.65
+1200,21,F,21,Obsessive-Compulsive Disorder,0.5
+1201,42,F,74,PTSD,0.99
+1202,29,F,75,PTSD,0.87
+1203,55,F,64,PTSD,0.88
+1204,38,M,28,,
+1205,43,F,73,PTSD,1.0
+1206,21,F,76,PTSD,0.85
+1207,86,F,45,PTSD,0.55
+1208,23,F,26,Adult Separation Disorder,0.5
+1209,58,F,72,PTSD,0.96
+1210,44,M,21,Adult Separation Disorder,0.1
+1211,59,F,76,Generalized Anxiety Disorder,
+1212,53,M,33,PTSD,0.61
+1213,23,M,16,Specific Phobia,0.03
+1214,49,M,65,PTSD,0.87
+1215,23,F,15,Adult Separation Disorder,0.38
+1216,55,F,10,Generalized Anxiety Disorder,0.12
+1217,41,M,16,Obsessive-Compulsive Disorder,0.4
+1218,59,M,13,Generalized Anxiety Disorder,0.47
+1219,54,F,31,Generalized Anxiety Disorder,0.16
+1220,27,M,72,PTSD,0.98
+1221,43,F,0,Specific Phobia,0.21
+1222,32,M,23,Panic Disorder,0.15
+1223,53,M,29,Generalized Anxiety Disorder,0.04
+1224,19,M,27,Generalized Anxiety Disorder,0.43
+1225,32,F,10,Specific Phobia,0.1
+1226,52,M,8,Panic Disorder,0.01
+1227,21,M,72,PTSD,0.94
+1228,0,F,13,Panic Disorder,
+1229,51,F,37,PTSD,0.51
+1230,44,M,2,Social Phobia,0.04
+1231,27,M,19,Specific Phobia,0.44
+1232,27,F,51,PTSD,0.83
+1233,59,F,54,PTSD,0.8
+1234,47,M,29,Panic Disorder,0.08
+1235,42,M,18,Social Phobia,0.22
+1236,18,F,42,PTSD,0.62
+1237,28,M,66,PTSD,0.91
+1238,41,M,50,PTSD,0.69
+1239,0,F,77,,
+1240,29,M,51,PTSD,0.8
+1241,27,M,18,Social Phobia,0.05
+1242,25,F,26,Obsessive-Compulsive Disorder,0.01
+1243,22,F,76,PTSD,0.9
+1244,39,M,13,Obsessive-Compulsive Disorder,0.44
+1245,20,M,5,Obsessive-Compulsive Disorder,0.46
+1246,50,M,4,Specific Phobia,0.18
+1247,49,F,77,PTSD,0.92
+1248,41,F,77,PTSD,0.95
+1249,54,F,11,Social Phobia,0.46
+1250,37,M,4,Adult Separation Disorder,0.02
+1251,21,F,8,Social Phobia,0.18
+1252,26,M,23,Adult Separation Disorder,0.11
+1253,55,M,71,PTSD,0.99
+1254,37,M,69,PTSD,1.0
+1255,73,F,1,Generalized Anxiety Disorder,0.05
+1256,30,F,74,PTSD,0.85
+1257,26,M,68,PTSD,0.98
+1258,56,F,74,PTSD,1.0
+1259,51,M,73,PTSD,0.93
+1260,42,,0,Social Phobia,
+1261,54,F,11,Adult Separation Disorder,0.26
+1262,59,F,54,PTSD,0.83
+1263,20,M,17,Social Phobia,0.35
+1264,51,F,77,PTSD,0.88
+1265,34,M,15,Panic Disorder,0.43
+1266,21,M,29,Generalized Anxiety Disorder,0.12
+1267,18,M,72,PTSD,0.87
+1268,32,M,53,PTSD,0.7
+1269,39,F,18,Adult Separation Disorder,0.48
+1270,23,F,28,Specific Phobia,0.26
+1271,46,M,33,PTSD,0.64
+1272,50,F,76,PTSD,0.93
+1273,26,M,43,PTSD,0.64
+1274,28,M,27,Social Phobia,0.16
+1275,32,M,20,Panic Disorder,0.46
+1276,50,M,67,PTSD,0.88
+1277,19,M,69,PTSD,0.91
+1278,79,F,63,PTSD,0.69
+1279,37,F,10,Adult Separation Disorder,0.23
+1280,23,M,61,PTSD,0.72
+1281,21,F,8,Generalized Anxiety Disorder,0.05
+1282,40,F,34,PTSD,0.51
+1283,35,F,45,PTSD,0.55
+1284,58,F,27,Generalized Anxiety Disorder,0.04
+1285,44,M,61,PTSD,0.74
+1286,18,F,56,PTSD,0.74
+1287,18,M,3,Generalized Anxiety Disorder,0.22
+1288,27,M,49,PTSD,0.82
+1289,30,M,5,Social Phobia,0.14
+1290,41,F,64,PTSD,0.86
+1291,26,M,24,Adult Separation Disorder,0.35
+1292,49,F,13,Adult Separation Disorder,0.19
+1293,32,F,29,Generalized Anxiety Disorder,0.27
+1294,39,M,35,PTSD,0.54
+1295,34,F,4,Social Phobia,0.28
+1296,28,M,31,Panic Disorder,0.47
+1297,20,M,61,PTSD,0.77
+1298,53,M,70,PTSD,0.95
+1299,25,F,74,PTSD,0.95
+1300,19,F,59,PTSD,0.83
+1301,47,M,63,PTSD,0.71
+1302,18,M,9,Social Phobia,0.04
+1303,36,F,14,Adult Separation Disorder,0.01
+1304,58,F,9,Social Phobia,0.49
+1305,28,F,9,Obsessive-Compulsive Disorder,0.33
+1306,35,M,15,Panic Disorder,0.14
+1307,45,F,75,PTSD,0.89
+1308,41,M,20,Adult Separation Disorder,0.03
+1309,43,M,23,Panic Disorder,0.15
+1310,46,M,39,PTSD,0.61
+1311,55,F,29,Panic Disorder,0.04
+1312,35,M,10,Generalized Anxiety Disorder,0.5
+1313,42,M,14,Adult Separation Disorder,0.05
+1314,31,F,50,PTSD,0.8
+1315,54,M,72,PTSD,0.9
+1316,54,M,49,PTSD,0.78
+1317,35,F,21,Generalized Anxiety Disorder,0.39
+1318,37,M,21,Adult Separation Disorder,0.11
+1319,55,M,66,PTSD,0.86
+1320,46,M,73,PTSD,0.92
+1321,48,M,6,Panic Disorder,0.19
+1322,55,M,11,Specific Phobia,0.42
+1323,79,M,42,Specific Phobia,
+1324,44,M,4,Panic Disorder,0.38
+1325,42,M,1,Panic Disorder,0.36
+1326,56,F,0,Generalized Anxiety Disorder,0.43
+1327,47,M,64,PTSD,0.93
+1328,38,M,6,Specific Phobia,0.16
+1329,57,F,63,PTSD,0.71
+1330,46,M,41,PTSD,0.58
+1331,53,F,55,PTSD,0.83
+1332,50,M,3,Panic Disorder,0.21
+1333,38,M,7,Panic Disorder,0.14
+1334,32,M,18,Panic Disorder,0.48
+1335,46,F,39,PTSD,0.56
+1336,50,M,17,Obsessive-Compulsive Disorder,0.27
+1337,45,F,45,PTSD,0.58
+1338,33,F,27,Generalized Anxiety Disorder,0.34
+1339,82,F,42,PTSD,0.65
+1340,33,M,13,Social Phobia,0.26
+1341,56,F,67,PTSD,0.95
+1342,20,F,53,PTSD,0.69
+1343,39,M,28,Obsessive-Compulsive Disorder,0.46
+1344,50,F,49,PTSD,0.68
+1345,42,M,30,Adult Separation Disorder,0.42
+1346,71,F,37,PTSD,0.54
+1347,42,M,15,Social Phobia,0.48
+1348,38,F,1,Panic Disorder,0.21
+1349,46,F,15,Generalized Anxiety Disorder,0.16
+1350,25,M,54,PTSD,0.8
+1351,41,M,39,PTSD,0.67
+1352,35,F,20,Social Phobia,0.32
+1353,39,F,6,Specific Phobia,0.14
+1354,32,M,48,PTSD,0.73
+1355,90,M,68,PTSD,0.97
+1356,26,M,0,Adult Separation Disorder,0.23
+1357,22,M,18,Social Phobia,0.13
+1358,51,M,9,Specific Phobia,0.28
+1359,57,M,79,PTSD,0.88
+1360,50,M,71,PTSD,0.87
+1361,23,F,5,Generalized Anxiety Disorder,0.08
+1362,49,M,51,PTSD,0.82
+1363,47,M,41,PTSD,0.59
+1364,26,F,62,PTSD,0.74
+1365,27,F,5,Panic Disorder,0.17
+1366,39,M,60,PTSD,0.69
+1367,59,F,39,PTSD,0.52
+1368,22,M,30,Adult Separation Disorder,0.11
+1369,30,M,22,Obsessive-Compulsive Disorder,0.3
+1370,18,M,24,Panic Disorder,0.49
+1371,62,M,55,PTSD,0.72
+1372,25,M,56,PTSD,0.75
+1373,19,M,69,PTSD,0.99
+1374,36,F,3,Social Phobia,0.14
+1375,25,F,66,PTSD,0.96
+1376,28,M,15,Social Phobia,0.08
+1377,40,F,80,PTSD,0.91
+1378,39,M,47,PTSD,0.6
+1379,37,F,42,PTSD,0.51
+1380,36,M,60,PTSD,0.69
+1381,43,M,32,PTSD,0.51
+1382,51,F,55,PTSD,0.79
+1383,47,M,13,Panic Disorder,0.44
+1384,58,F,6,Social Phobia,0.19
+1385,57,M,66,PTSD,0.99
+1386,21,F,39,PTSD,0.66
+1387,59,M,21,Panic Disorder,0.23
+1388,49,F,35,PTSD,0.53
+1389,24,F,38,PTSD,0.59
+1390,21,F,71,PTSD,0.85
+1391,33,M,11,Generalized Anxiety Disorder,0.28
+1392,48,M,44,PTSD,0.62
+1393,50,F,43,PTSD,0.61
+1394,44,M,36,PTSD,0.52
+1395,21,M,39,PTSD,0.58
+1396,67,M,74,PTSD,0.85
+1397,24,M,56,PTSD,0.76
+1398,44,F,25,Obsessive-Compulsive Disorder,0.09
+1399,59,M,4,Specific Phobia,0.12
+1400,29,F,7,Generalized Anxiety Disorder,0.36
+1401,37,F,54,PTSD,0.81
+1402,49,M,51,PTSD,0.79
+1403,44,F,44,PTSD,0.59
+1404,25,M,5,Generalized Anxiety Disorder,0.28
+1405,42,F,52,PTSD,0.69
+1406,52,F,66,PTSD,0.95
+1407,45,M,0,Specific Phobia,
+1408,52,M,11,Adult Separation Disorder,0.22
+1409,34,F,40,PTSD,0.57
+1410,54,M,28,Panic Disorder,0.16
+1411,28,M,53,PTSD,0.82
+1412,22,M,80,PTSD,0.89
+1413,64,F,77,PTSD,0.86
+1414,41,M,63,PTSD,0.75
+1415,56,M,48,PTSD,0.77
+1416,29,M,28,Specific Phobia,0.07
+1417,53,F,54,PTSD,0.75
+1418,18,M,1,Panic Disorder,0.05
+1419,40,M,12,Generalized Anxiety Disorder,0.04
+1420,41,M,18,Panic Disorder,0.04
+1421,28,M,30,Social Phobia,0.35
+1422,40,M,10,Panic Disorder,0.28
+1423,29,M,62,PTSD,0.72
+1424,20,F,73,PTSD,0.88
+1425,75,M,45,PTSD,0.59
+1426,52,F,33,PTSD,0.52
+1427,0,M,0,Generalized Anxiety Disorder,
+1428,26,M,1,Obsessive-Compulsive Disorder,0.06
+1429,27,F,53,PTSD,0.75
+1430,42,M,10,Obsessive-Compulsive Disorder,0.07
+1431,53,F,22,Adult Separation Disorder,0.2
+1432,59,F,61,PTSD,0.71
+1433,22,M,22,Generalized Anxiety Disorder,0.39
+1434,67,M,43,PTSD,0.5
+1435,37,F,67,PTSD,0.92
+1436,22,F,68,PTSD,0.85
+1437,31,F,58,PTSD,0.8
+1438,47,F,50,PTSD,0.73
+1439,31,M,46,PTSD,0.55
+1440,44,M,26,Specific Phobia,0.33
+1441,29,M,78,PTSD,0.98
+1442,18,M,21,Obsessive-Compulsive Disorder,0.01
+1443,21,F,76,PTSD,0.89
+1444,45,M,64,PTSD,0.96
+1445,29,F,26,Obsessive-Compulsive Disorder,0.38
+1446,47,M,6,Generalized Anxiety Disorder,0.16
+1447,40,M,23,Adult Separation Disorder,0.16
+1448,53,F,57,PTSD,0.8
+1449,0,,68,Adult Separation Disorder,
+1450,51,M,37,PTSD,0.58
+1451,49,F,26,Specific Phobia,0.13
+1452,25,M,36,PTSD,0.66
+1453,31,M,51,PTSD,0.78
+1454,53,M,58,PTSD,0.69
+1455,48,F,34,PTSD,0.6
+1456,32,F,28,Generalized Anxiety Disorder,0.23
+1457,58,F,68,PTSD,0.89
+1458,42,M,29,Adult Separation Disorder,0.16
+1459,73,F,43,PTSD,0.54
+1460,33,F,69,PTSD,0.96
+1461,23,F,78,PTSD,0.94
+1462,43,M,20,Generalized Anxiety Disorder,0.09
+1463,59,F,75,PTSD,1.0
+1464,42,M,13,Adult Separation Disorder,0.17
+1465,36,F,33,PTSD,0.52
+1466,26,F,4,Social Phobia,0.36
+1467,43,M,22,Generalized Anxiety Disorder,0.05
+1468,34,M,44,PTSD,0.66
+1469,22,M,30,Panic Disorder,0.29
+1470,90,,53,Obsessive-Compulsive Disorder,
+1471,37,F,55,PTSD,0.77
+1472,90,M,76,PTSD,0.95
+1473,24,M,10,Obsessive-Compulsive Disorder,0.18
+1474,24,F,56,PTSD,0.72
+1475,85,F,4,Social Phobia,0.37
+1476,22,F,20,Adult Separation Disorder,0.35
+1477,40,M,24,Panic Disorder,0.06
+1478,24,F,43,PTSD,0.67
+1479,41,F,63,PTSD,0.75
+1480,53,M,17,Generalized Anxiety Disorder,0.3
+1481,59,F,80,PTSD,0.96
+1482,22,F,57,PTSD,0.83
+1483,29,F,17,Panic Disorder,0.48
+1484,31,M,19,Adult Separation Disorder,0.45
+1485,31,M,31,Specific Phobia,0.44
+1486,42,F,20,Obsessive-Compulsive Disorder,0.23
+1487,35,M,27,Panic Disorder,0.23
+1488,30,,0,Adult Separation Disorder,
+1489,27,F,12,Adult Separation Disorder,0.22
